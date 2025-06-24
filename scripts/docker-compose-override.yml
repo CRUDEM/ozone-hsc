@@ -1,7 +1,7 @@
 services:
   odoo:
     environment:
-      - ADDONS=sale_management,stock,account_account,purchase,mrp,odoo_initializer,ozone_settings,mrp_product_expiry,product_expiry,l10n_generic_coa,stock_extension
+      - ADDONS=sale_management,stock,account_account,purchase,mrp,odoo_initializer,ozone_settings,mrp_product_expiry,product_expiry,l10n_generic_coa,stock_extension,bulk_cancel_orders,odoo_warehouse,sale_order_price_recalculation,sotto_sale_delivery_status,sotto_sale_payment_status
 
   env-substitution:
     environment:
