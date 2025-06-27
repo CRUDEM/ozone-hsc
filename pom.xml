@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.ozonehis</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>1.0.0-alpha.13</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>ozone-hsc</artifactId>
@@ -21,7 +21,7 @@
     <ozone.groupId>com.ozonehis</ozone.groupId>
     <ozone.version>1.1.0-SNAPSHOT</ozone.version>
 
-    <ozoneProVersion>1.0.0-alpha.14</ozoneProVersion>
+    <ozoneProVersion>1.0.0-SNAPSHOT</ozoneProVersion>
 
     <analyticsQueriesVersion>1.2.0</analyticsQueriesVersion>
 
@@ -83,6 +83,29 @@
                     <exclude>.gitkeep</exclude>
                     <exclude>superset/</exclude>
                   </excludes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy over the content-packages.txt file -->
+            <id>Copy content-packages.txt</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/scripts/openmrs/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.basedir}/scripts</directory>
+                  <includes>
+                    <include>content-packages.txt</include>
+                  </includes>
+                  <filtering>false</filtering>
                 </resource>
               </resources>
             </configuration>
