@@ -107,6 +107,7 @@
                     <exclude>**/**/**/**/*.gitkeep</exclude>
                     <exclude>**/**/**/**/metadata.yaml</exclude>
                     <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
+                    <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
                   </excludes>
                 </resource>
               </resources>
