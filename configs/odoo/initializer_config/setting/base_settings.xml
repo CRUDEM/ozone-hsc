@@ -5,8 +5,6 @@
         <field name="group_product_pricelist" eval="True"/>
         <field name="product_pricelist_setting">advanced</field>
         <field name="default_invoice_policy">order</field>
-        <field name="group_stock_multi_locations" eval="True"/>
-        <field name="group_stock_adv_location" eval="True"/>
     </record>
     <function model="res.config.settings" name="execute">
         <value model="res.config.settings"
