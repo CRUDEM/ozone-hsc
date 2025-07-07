@@ -37,12 +37,12 @@
   </modules>
 
   <dependencies>
-    <dependency>
+    <!-- <dependency>
       <groupId>com.ozonehis</groupId>
       <artifactId>ozone-pro</artifactId>
       <type>zip</type>
       <version>${ozoneProVersion}</version>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>${supersetConfigsArtifactId}</artifactId>
