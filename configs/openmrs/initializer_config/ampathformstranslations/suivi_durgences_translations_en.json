@@ -1,7 +1,7 @@
 {
   "uuid": "a3b2c1d4-e5f6-4a7b-8c9d-0e1f2g3h4i5j",
-  "description": "Suivi d'urgences",
-  "form": "Suivi d'urgences",
+  "description": "Emergency monitoring",
+  "form": "Emergency monitoring",
   "form_name_translation": "Emergency monitoring",
   "language": "en",
   "translations": {
