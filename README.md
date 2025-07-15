@@ -62,6 +62,7 @@
     <li>Updated Odoo configs to match HSC Prod.</li>
     <li>Updated Nurse, Doctor & Registrar roles.</li>
     <li>Remove unnecessary .gitkeep in frontend_config directory.</li>
+    <li>Added 'View OrderTemplates' privilege.</li>
     </ul>
 </details>
 
