@@ -43,17 +43,6 @@
 		</sql>
 	</changeSet>
 
-	<!-- Person Attribute types -->
-	<changeSet id="postappointments-2024-09-16-07-00" author="nathan">
-		<comment>
-			Set person attribute type 'email' UUID
-		</comment>
-		<update tableName="person_attribute_type">
-			<column name="uuid" value="d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e"/>
-			<where>name='email'</where>
-		</update>
-	</changeSet>
-
 	<!-- Update order type 'Drug Order' UUID -->
 	<changeSet id="postbahmni-2025-02-14-13-20" author="nathan">
 		<comment>
