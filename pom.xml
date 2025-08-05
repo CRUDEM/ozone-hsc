@@ -133,6 +133,18 @@
                     <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
                     <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
                     <exclude>distro/configs/odoo/initializer_config/**</exclude>
+
+                    <exclude>distro/configs/**/addresshierarchy/03_ozone-haiti/*</exclude>
+                    <exclude>distro/configs/**/ampathforms/03_ozone-haiti/ipd_admission_request.json</exclude>
+                    <exclude>distro/configs/**/ampathforms/03_ozone-haiti/Consultation.json</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/consultation_prenatale.csv</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/gyn_review.csv</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/historique_sante.csv</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/lab_tests.csv</exclude>
+                    <exclude>distro/configs/**/drugs/03_ozone-haiti/*</exclude>
+                    <exclude>distro/configs/**/locations/03_ozone-haiti/locations.csv</exclude>
+                    <exclude>distro/configs/**/patientidentifiertypes/03_ozone-haiti/facility_ids.csv</exclude>
+                    <exclude>distro/configs/**/visittypes/03_ozone-haiti/visittypes.csv</exclude>
                   </excludes>
                 </resource>
               </resources>
