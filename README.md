@@ -28,6 +28,45 @@
 ## Release Notes
 
 <details>
+  <summary><b>Version 2.1.0</b></summary>
+   <ul>
+    <li>Depends on:
+     <ul>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#release-notes">Ozone Haiti 1.1.0</a></li>
+     </ul>
+    </li>
+   </ul>
+
+   <b>Specific notes</b>
+
+   <ul>
+    <li>Added active medication and conditions in IPD summary page.</li>
+    <li>Set Indication to optional for drug orders.</li>
+    <li>Added missing login and visit locations.</li>
+    <li>Made units of measurement to display in clinical forms for numeric fields in Vitals and Biometrics.</li>
+    <li>Updated uuid for Administration location.</li>
+    <li>Added 'Account Management' external link to app menu.</li>
+    <li>Removed config to show medications and conditions in IPD summary.</li>
+    <li>Added OpenMRS billing module dependency.</li>
+    <li>Added reports for pregnant women receiving iron folate, prenatal multi-vitamins, total children seen, and patients with diagnosis.</li>
+    <li>Added mandatory identifier from Patient registration form.</li>
+    <li>Updated Ozone version to 1.0.0-alpha.13.</li>
+    <li>Updated ozone-pro version to point to 1.0.0-alpha.14.</li>
+    <li>Removed ampathformstranslation folder and exclude Consultation.json file from Haiti.</li>
+    <li>Removed SSO support.</li>
+    <li>Cleaned up imaging orders concepts list.</li>
+    <li>Added missing Odoo Addons.</li>
+    <li>Made NGINX proxy build context configurable via environment variable.</li>
+    <li>Removed ozone_settings Odoo addon & add Odoo initializer default settings.</li>
+    <li>Updated Odoo configs to match HSC Prod.</li>
+    <li>Updated Nurse, Doctor & Registrar roles.</li>
+    <li>Remove unnecessary .gitkeep in frontend_config directory.</li>
+    <li>Added 'View OrderTemplates' privilege.</li>
+    </ul>
+</details>
+
+<details>
   <summary><b>Version 2.0.0</b></summary>
    <ul>
     <li>Depends on:
