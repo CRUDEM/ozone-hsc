@@ -1,0 +1,14 @@
+<config>
+    <globalProperties>
+        <globalProperty>
+            <property>attachments.maxStorageFileSize</property>
+            <value>12</value>
+            <description>Maximum size (in Megabytes) allowed for the storage of an attachment</description>
+        </globalProperty>
+        <globalProperty>
+            <property>attachments.maxUploadFileSize</property>
+            <value>12</value>
+            <description>Maximum size (in Megabytes) allowed for an attachment file upload</description>
+        </globalProperty>
+    </globalProperties>
+</config>

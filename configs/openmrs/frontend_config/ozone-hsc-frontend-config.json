@@ -102,6 +102,7 @@
     }
   },
   "@openmrs/esm-patient-attachments-app": {
+    "maxFileSize": 12,
     "Display conditions": {
       "privileges": ["Add Attachments"]
     }
