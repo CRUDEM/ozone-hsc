@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.ozonehis</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>1.0.0-alpha.13</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>ozone-hsc</artifactId>
@@ -21,7 +21,7 @@
     <ozone.groupId>com.ozonehis</ozone.groupId>
     <ozone.version>1.2.0-SNAPSHOT</ozone.version>
 
-    <ozoneProVersion>1.0.0-alpha.14</ozoneProVersion>
+    <ozoneProVersion>1.0.0-SNAPSHOT</ozoneProVersion>
 
     <analyticsQueriesVersion>1.2.0</analyticsQueriesVersion>
 
@@ -82,7 +82,31 @@
                   <excludes>
                     <exclude>.gitkeep</exclude>
                     <exclude>superset/</exclude>
+                    <exclude>openmrs/initializer_config/</exclude>
                   </excludes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy over the content-packages.txt file -->
+            <id>Copy content-packages.txt</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/scripts/openmrs/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.basedir}/scripts</directory>
+                  <includes>
+                    <include>content-packages.txt</include>
+                  </includes>
+                  <filtering>false</filtering>
                 </resource>
               </resources>
             </configuration>
@@ -109,6 +133,18 @@
                     <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
                     <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
                     <exclude>distro/configs/odoo/initializer_config/**</exclude>
+
+                    <exclude>distro/configs/**/addresshierarchy/03_ozone-haiti/*</exclude>
+                    <exclude>distro/configs/**/ampathforms/03_ozone-haiti/ipd_admission_request.json</exclude>
+                    <exclude>distro/configs/**/ampathforms/03_ozone-haiti/Consultation.json</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/consultation_prenatale.csv</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/gyn_review.csv</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/historique_sante.csv</exclude>
+                    <exclude>distro/configs/**/concepts/03_ozone-haiti/lab_tests.csv</exclude>
+                    <exclude>distro/configs/**/drugs/03_ozone-haiti/*</exclude>
+                    <exclude>distro/configs/**/locations/03_ozone-haiti/locations.csv</exclude>
+                    <exclude>distro/configs/**/patientidentifiertypes/03_ozone-haiti/facility_ids.csv</exclude>
+                    <exclude>distro/configs/**/visittypes/03_ozone-haiti/visittypes.csv</exclude>
                   </excludes>
                 </resource>
               </resources>
