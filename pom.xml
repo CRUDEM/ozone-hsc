@@ -109,6 +109,8 @@
                     <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
                     <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
                     <exclude>distro/configs/odoo/initializer_config/**</exclude>
+                    <!-- Temporary: exclude non-functioning Odoo add-on -->
+                    <exclude>distro/binaries/odoo/addons/sale_order_price_recalculation/</exclude>
                   </excludes>
                 </resource>
               </resources>
