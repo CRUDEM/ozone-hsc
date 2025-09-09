@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -28,6 +29,9 @@
     <supersetConfigsArtifactId>ozone-hsc-superset-configs</supersetConfigsArtifactId>
     <analyticQueriesArtifactId>analytics-queries</analyticQueriesArtifactId>
 
+    <!-- Override incorrect version of Odoo add-on -->
+    <priceRecalculationVersion>14.0.1.0.0</priceRecalculationVersion>
+
     <!-- Classifier for the dependency report artifact -->
     <dependencyReportClassifier>dependencies</dependencyReportClassifier>
   </properties>
@@ -49,7 +53,12 @@
       <version>${project.version}</version>
       <type>zip</type>
     </dependency>
-
+    <dependency>
+      <groupId>net.mekomsolutions.odoo</groupId>
+      <artifactId>sale_order_price_recalculation</artifactId>
+      <version>${priceRecalculationVersion}</version>
+      <type>zip</type>
+    </dependency>
     <dependency>
       <groupId>com.ozonehis</groupId>
       <artifactId>${analyticQueriesArtifactId}</artifactId>
@@ -175,7 +184,7 @@
                   <directory>
                     ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter</directory>
                 </resource>
-                 <resource>
+                <resource>
                   <targetPath>
                     ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/jmx_exporter_config</targetPath>
                   <directory>
@@ -214,6 +223,21 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
         <executions>
+          <!-- Unpack HSC specifc Odoo add-ons -->
+          <execution>
+            <id>Unpack Odoo addons HSC</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+              <excludeTransitive>true</excludeTransitive>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/odoo/addons/</outputDirectory>
+              <!-- copy Odoo addons only -->
+              <includeGroupIds>net.mekomsolutions.odoo</includeGroupIds>
+            </configuration>
+          </execution>
           <!-- Unpack Ozone HSC Superset configs -->
           <execution>
             <id>Unpack Ozone HSC Superset configs sub-module</id>
@@ -257,8 +281,8 @@
           </execution>
         </executions>
       </plugin>
-            <!-- Compile a dependency report -->
-       <plugin>
+      <!-- Compile a dependency report -->
+      <plugin>
         <groupId>net.mekomsolutions.maven.plugin</groupId>
         <artifactId>dependency-tracker-maven-plugin</artifactId>
         <executions>
