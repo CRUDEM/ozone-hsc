@@ -1,440 +1,440 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.ozonehis</groupId>
-    <artifactId>maven-parent</artifactId>
-    <version>1.0.0-alpha.13</version>
-  </parent>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ozonehis</groupId>
+        <artifactId>maven-parent</artifactId>
+        <version>1.0.0-alpha.13</version>
+    </parent>
 
-  <artifactId>ozone-hsc</artifactId>
-  <packaging>pom</packaging>
-  <version>2.2.0-SNAPSHOT</version>
+    <artifactId>ozone-hsc</artifactId>
+    <packaging>pom</packaging>
+    <version>2.2.0-SNAPSHOT</version>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>8</maven.compiler.source>
-    <maven.compiler.target>8</maven.compiler.target>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
 
-    <ozone.artifactId>ozone-haiti</ozone.artifactId>
-    <ozone.groupId>com.ozonehis</ozone.groupId>
-    <ozone.version>1.1.0</ozone.version>
+        <ozone.artifactId>ozone-haiti</ozone.artifactId>
+        <ozone.groupId>com.ozonehis</ozone.groupId>
+        <ozone.version>1.1.0</ozone.version>
 
-    <ozoneProVersion>1.0.0-alpha.14</ozoneProVersion>
+        <ozoneProVersion>1.0.0-alpha.14</ozoneProVersion>
 
-    <analyticsQueriesVersion>1.2.0</analyticsQueriesVersion>
+        <analyticsQueriesVersion>1.2.0</analyticsQueriesVersion>
 
-    <supersetConfigsArtifactId>ozone-hsc-superset-configs</supersetConfigsArtifactId>
-    <analyticQueriesArtifactId>analytics-queries</analyticQueriesArtifactId>
+        <supersetConfigsArtifactId>ozone-hsc-superset-configs</supersetConfigsArtifactId>
+        <analyticQueriesArtifactId>analytics-queries</analyticQueriesArtifactId>
 
-    <!-- Override incorrect version of Odoo add-on -->
-    <priceRecalculationVersion>14.0.1.0.0</priceRecalculationVersion>
+        <!-- Override incorrect version of Odoo add-on -->
+        <priceRecalculationVersion>14.0.1.0.0</priceRecalculationVersion>
 
-    <!-- Classifier for the dependency report artifact -->
-    <dependencyReportClassifier>dependencies</dependencyReportClassifier>
-  </properties>
+        <!-- Classifier for the dependency report artifact -->
+        <dependencyReportClassifier>dependencies</dependencyReportClassifier>
+    </properties>
 
-  <modules>
-    <module>configs/superset</module>
-  </modules>
+    <modules>
+        <module>configs/superset</module>
+    </modules>
 
-  <dependencies>
-    <dependency>
-      <groupId>com.ozonehis</groupId>
-      <artifactId>ozone-pro</artifactId>
-      <type>zip</type>
-      <version>${ozoneProVersion}</version>
-    </dependency>
-    <dependency>
-      <groupId>${project.groupId}</groupId>
-      <artifactId>${supersetConfigsArtifactId}</artifactId>
-      <version>${project.version}</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>net.mekomsolutions.odoo</groupId>
-      <artifactId>sale_order_price_recalculation</artifactId>
-      <version>${priceRecalculationVersion}</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>com.ozonehis</groupId>
-      <artifactId>${analyticQueriesArtifactId}</artifactId>
-      <version>${analyticsQueriesVersion}</version>
-      <type>zip</type>
-    </dependency>
-  </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-resources-plugin</artifactId>
-        <executions>
-          <execution>
-            <!-- Override the inherited Maven Parent plugin execution to exclude Superset configs -->
-            <!-- Override with local config files -->
-            <id>Copy local resources</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs
-              </outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <directory>${project.basedir}/configs</directory>
-                  <excludes>
-                    <exclude>.gitkeep</exclude>
-                    <exclude>superset/</exclude>
-                  </excludes>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-          <execution>
-            <!-- Exclude files from Ozone -->
-            <id>Exclude unneeded Ozone files</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}</outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <directory>${project.build.directory}/ozone-haiti</directory>
-                  <excludes>
-                    <!-- Effectively disable inherited exclusions -->
-                    <exclude>non-existing_file</exclude>
-                    <exclude>**/**/**/**/*.gitkeep</exclude>
-                    <exclude>**/**/**/**/metadata.yaml</exclude>
-                    <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
-                    <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
-                    <exclude>distro/configs/odoo/initializer_config/**</exclude>
-                    <!-- Temporary: exclude non-functioning Odoo add-on -->
-                    <exclude>distro/binaries/odoo/addons/sale_order_price_recalculation/</exclude>
-                  </excludes>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-          <execution>
-            <!-- Add stock extension addon -->
-            <id>Copy binaries folder</id>
-            <phase>prepare-package</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries</outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <directory>${project.basedir}/binaries</directory>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-          <execution>
-            <!-- Copy over the Docker Compose override file -->
-            <id>Copy docker-compose-override.yml</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
-              </outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <directory>${project.basedir}/scripts</directory>
-                  <includes>
-                    <include>docker-compose-override.yml</include>
-                  </includes>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-          <execution>
-            <!-- Copy Monitoring Binary Resources -->
-            <id>Copy Monitoring Resources </id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/
-              </outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/openmrs/jmx_exporter</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter</directory>
-                </resource>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/jmx_exporter_config</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/configs/openmrs/jmx_exporter_config</directory>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-          <execution>
-            <!-- Copy Monitoring Docker Resources -->
-            <id>Copy Monitoring Docker Resources</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
-              </outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/run/docker</directory>
-                  <includes>
-                    <include>docker-compose-common-pro.yml</include>
-                    <include>docker-compose-openmrs-pro.yml</include>
-                  </includes>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <executions>
-          <!-- Unpack HSC specifc Odoo add-ons -->
-          <execution>
-            <id>Unpack Odoo addons HSC</id>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>unpack-dependencies</goal>
-            </goals>
-            <configuration>
-              <excludeTransitive>true</excludeTransitive>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/odoo/addons/</outputDirectory>
-              <!-- copy Odoo addons only -->
-              <includeGroupIds>net.mekomsolutions.odoo</includeGroupIds>
-            </configuration>
-          </execution>
-          <!-- Unpack Ozone HSC Superset configs -->
-          <execution>
-            <id>Unpack Ozone HSC Superset configs sub-module</id>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>unpack-dependencies</goal>
-            </goals>
-            <configuration>
-              <excludeTransitive>true</excludeTransitive>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/superset
-              </outputDirectory>
-              <includeArtifactIds>${supersetConfigsArtifactId}</includeArtifactIds>
-            </configuration>
-          </execution>
-          <!-- Copy Ozone Analytics queries -->
-          <execution>
-            <id>Ozone Analytics queries</id>
-            <phase>prepare-package</phase>
-            <goals>
-              <goal>unpack-dependencies</goal>
-            </goals>
-            <configuration>
-              <excludeTransitive>true</excludeTransitive>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/analytics/
-              </outputDirectory>
-              <includeArtifactIds>${analyticQueriesArtifactId}</includeArtifactIds>
-            </configuration>
-          </execution>
-          <execution>
-            <id>Unpack Ozone Pro</id>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>unpack-dependencies</goal>
-            </goals>
-            <configuration>
-              <excludeTransitive>true</excludeTransitive>
-              <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <!-- Compile a dependency report -->
-      <plugin>
-        <groupId>net.mekomsolutions.maven.plugin</groupId>
-        <artifactId>dependency-tracker-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>Compile dependency report</id>
-            <phase>compile</phase>
-            <goals>
-              <goal>track</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <!-- Attach the dependency report to the build -->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <version>1.7</version>
-        <executions>
-          <execution>
-            <id>Attach the dependency report</id>
-            <phase>package</phase>
-            <goals>
-              <goal>attach-artifact</goal>
-            </goals>
-            <configuration>
-              <artifacts>
-                <artifact>
-                  <file>
-                    ${project.build.directory}/${project.artifactId}-${project.version}-dependencies.txt</file>
-                  <type>txt</type>
-                  <classifier>${dependencyReportClassifier}</classifier>
-                </artifact>
-              </artifacts>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-  <profiles>
-    <profile>
-      <id>validator</id>
-      <!-- <activation>
-        <jdk>1.8</jdk>
-        <property>
-          <name>env.CI</name>
-          <value>true</value>
-        </property>
-      </activation> -->
-      <build>
+    <dependencies>
+        <dependency>
+            <groupId>com.ozonehis</groupId>
+            <artifactId>ozone-pro</artifactId>
+            <type>zip</type>
+            <version>${ozoneProVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>${supersetConfigsArtifactId}</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>net.mekomsolutions.odoo</groupId>
+            <artifactId>sale_order_price_recalculation</artifactId>
+            <version>${priceRecalculationVersion}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.ozonehis</groupId>
+            <artifactId>${analyticQueriesArtifactId}</artifactId>
+            <version>${analyticsQueriesVersion}</version>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+    <build>
         <plugins>
-          <!-- copy over merged/packaged OpenMRS config for validation at the integration-test phase -->
-          <plugin>
-            <artifactId>maven-antrun-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>Copy OpenMRS Initializer configs for validation</id>
-                <phase>pre-integration-test</phase>
-                <configuration>
-                  <target>
-                    <copy todir="${project.build.directory}/validator/configuration">
-                      <fileset
-                        dir="${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config" />
-                    </copy>
-                  </target>
-                </configuration>
-                <goals>
-                  <goal>run</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-          <!-- hooking the OpenMRS config validation to the integration-test phase -->
-          <plugin>
-            <groupId>org.openmrs.maven.plugins</groupId>
-            <artifactId>openmrs-packager-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>Validate OpenMRS Initializer configs</id>
-                <phase>integration-test</phase>
-                <goals>
-                  <goal>validate-configurations</goal>
-                </goals>
-                <configuration>
-                  <sourceDir>
-                    ${project.build.directory}/validator/configuration</sourceDir>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <!-- Override the inherited Maven Parent plugin execution to exclude Superset configs -->
+                        <!-- Override with local config files -->
+                        <id>Copy local resources</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/configs</directory>
+                                    <excludes>
+                                        <exclude>.gitkeep</exclude>
+                                        <exclude>superset/</exclude>
+                                    </excludes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Exclude files from Ozone -->
+                        <id>Exclude unneeded Ozone files</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}</outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.build.directory}/ozone-haiti</directory>
+                                    <excludes>
+                                        <!-- Effectively disable inherited exclusions -->
+                                        <exclude>non-existing_file</exclude>
+                                        <exclude>**/**/**/**/*.gitkeep</exclude>
+                                        <exclude>**/**/**/**/metadata.yaml</exclude>
+                                        <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
+                                        <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
+                                        <exclude>distro/configs/odoo/initializer_config/**</exclude>
+                                        <!-- Temporary: exclude non-functioning Odoo add-on -->
+                                        <exclude>distro/binaries/odoo/addons/sale_order_price_recalculation/</exclude>
+                                    </excludes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Add stock extension addon -->
+                        <id>Copy binaries folder</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries</outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/binaries</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy over the Docker Compose override file -->
+                        <id>Copy docker-compose-override.yml</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/scripts</directory>
+                                    <includes>
+                                        <include>docker-compose-override.yml</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy Monitoring Binary Resources -->
+                        <id>Copy Monitoring Resources </id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/openmrs/jmx_exporter</targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter</directory>
+                                </resource>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/jmx_exporter_config</targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/configs/openmrs/jmx_exporter_config</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy Monitoring Docker Resources -->
+                        <id>Copy Monitoring Docker Resources</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/run/docker</directory>
+                                    <includes>
+                                        <include>docker-compose-common-pro.yml</include>
+                                        <include>docker-compose-openmrs-pro.yml</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <!-- Unpack HSC specifc Odoo add-ons -->
+                    <execution>
+                        <id>Unpack Odoo addons HSC</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <excludeTransitive>true</excludeTransitive>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/odoo/addons/</outputDirectory>
+                            <!-- copy Odoo addons only -->
+                            <includeGroupIds>net.mekomsolutions.odoo</includeGroupIds>
+                        </configuration>
+                    </execution>
+                    <!-- Unpack Ozone HSC Superset configs -->
+                    <execution>
+                        <id>Unpack Ozone HSC Superset configs sub-module</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <excludeTransitive>true</excludeTransitive>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/superset
+                            </outputDirectory>
+                            <includeArtifactIds>${supersetConfigsArtifactId}</includeArtifactIds>
+                        </configuration>
+                    </execution>
+                    <!-- Copy Ozone Analytics queries -->
+                    <execution>
+                        <id>Ozone Analytics queries</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <excludeTransitive>true</excludeTransitive>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/analytics/
+                            </outputDirectory>
+                            <includeArtifactIds>${analyticQueriesArtifactId}</includeArtifactIds>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>Unpack Ozone Pro</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <excludeTransitive>true</excludeTransitive>
+                            <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Compile a dependency report -->
+            <plugin>
+                <groupId>net.mekomsolutions.maven.plugin</groupId>
+                <artifactId>dependency-tracker-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>Compile dependency report</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>track</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Attach the dependency report to the build -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                        <id>Attach the dependency report</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>attach-artifact</goal>
+                        </goals>
+                        <configuration>
+                            <artifacts>
+                                <artifact>
+                                    <file>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}-dependencies.txt</file>
+                                    <type>txt</type>
+                                    <classifier>${dependencyReportClassifier}</classifier>
+                                </artifact>
+                            </artifacts>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
-      </build>
-    </profile>
-  </profiles>
-  <repositories>
-    <repository>
-      <id>mks-nexus-public</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
-    </repository>
-    <repository>
-      <id>openmrs-repo</id>
-      <name>OpenMRS Nexus Repository</name>
-      <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
-    </repository>
-    <repository>
-      <id>mks-nexus-private</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-private/</url>
-    </repository>
-  </repositories>
+    </build>
+    <profiles>
+        <profile>
+            <id>validator</id>
+            <!-- <activation>
+              <jdk>1.8</jdk>
+              <property>
+                <name>env.CI</name>
+                <value>true</value>
+              </property>
+            </activation> -->
+            <build>
+                <plugins>
+                    <!-- copy over merged/packaged OpenMRS config for validation at the integration-test phase -->
+                    <plugin>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>Copy OpenMRS Initializer configs for validation</id>
+                                <phase>pre-integration-test</phase>
+                                <configuration>
+                                    <target>
+                                        <copy todir="${project.build.directory}/validator/configuration">
+                                            <fileset
+                                                    dir="${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config" />
+                                        </copy>
+                                    </target>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- hooking the OpenMRS config validation to the integration-test phase -->
+                    <plugin>
+                        <groupId>org.openmrs.maven.plugins</groupId>
+                        <artifactId>openmrs-packager-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>Validate OpenMRS Initializer configs</id>
+                                <phase>integration-test</phase>
+                                <goals>
+                                    <goal>validate-configurations</goal>
+                                </goals>
+                                <configuration>
+                                    <sourceDir>
+                                        ${project.build.directory}/validator/configuration</sourceDir>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+    <repositories>
+        <repository>
+            <id>mks-nexus-public</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>openmrs-repo</id>
+            <name>OpenMRS Nexus Repository</name>
+            <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
+        </repository>
+        <repository>
+            <id>mks-nexus-private</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-private/</url>
+        </repository>
+    </repositories>
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>openmrs-repo</id>
-      <name>OpenMRS Nexus Repository</name>
-      <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>openmrs-snapshots</id>
-      <name>OpenMRS Public Repository</name>
-      <url>https://mavenrepo.openmrs.org/snapshots</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-    </pluginRepository>
-    <pluginRepository>
-      <id>mks-nexus-public</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
-    </pluginRepository>
-    <pluginRepository>
-      <id>mks-nexus-snapshots</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
-  <distributionManagement>
-    <repository>
-      <name>Mekom Solutions Nexus repo for releases</name>
-      <id>mks-nexus-public-releases</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-private-releases</url>
-    </repository>
-    <snapshotRepository>
-      <name>Mekom Solutions Nexus repo for snapshots</name>
-      <id>mks-nexus-public-snapshots</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-private-snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>openmrs-repo</id>
+            <name>OpenMRS Nexus Repository</name>
+            <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>openmrs-snapshots</id>
+            <name>OpenMRS Public Repository</name>
+            <url>https://mavenrepo.openmrs.org/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </pluginRepository>
+        <pluginRepository>
+            <id>mks-nexus-public</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>mks-nexus-snapshots</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+    <distributionManagement>
+        <repository>
+            <name>Mekom Solutions Nexus repo for releases</name>
+            <id>mks-nexus-public-releases</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-private-releases</url>
+        </repository>
+        <snapshotRepository>
+            <name>Mekom Solutions Nexus repo for snapshots</name>
+            <id>mks-nexus-public-snapshots</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-private-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
