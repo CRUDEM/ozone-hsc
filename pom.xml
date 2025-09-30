@@ -26,6 +26,9 @@
 
         <analyticsQueriesVersion>1.2.0</analyticsQueriesVersion>
 
+        <eipOdooOpenMRSVersion>2.1.1-SNAPSHOT</eipOdooOpenMRSVersion>
+        <eipOdooOpenMRSArtifactId>eip-odoo-openmrs</eipOdooOpenMRSArtifactId>
+
         <supersetConfigsArtifactId>ozone-hsc-superset-configs</supersetConfigsArtifactId>
         <analyticQueriesArtifactId>analytics-queries</analyticQueriesArtifactId>
 
@@ -223,6 +226,26 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <executions>
+                    <execution>
+                        <id>Copy EIP Odoo OpenMRS JAR</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>com.ozonehis</groupId>
+                                    <artifactId>${eipOdooOpenMRSArtifactId}</artifactId>
+                                    <version>${eipOdooOpenMRSVersion}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/binaries/${eipOdooOpenMRSArtifactId}</outputDirectory>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
                     <!-- Unpack HSC specifc Odoo add-ons -->
                     <execution>
                         <id>Unpack Odoo addons HSC</id>
