@@ -241,7 +241,7 @@
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>
-                                        ${project.build.directory}/${project.artifactId}-${project.version}/binaries/${eipOdooOpenMRSArtifactId}</outputDirectory>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/${eipOdooOpenMRSArtifactId}</outputDirectory>
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
