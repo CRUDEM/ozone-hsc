@@ -228,7 +228,7 @@
                 <executions>
                     <execution>
                         <id>Copy EIP Odoo OpenMRS JAR</id>
-                        <phase>prepare-package</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>copy</goal>
                         </goals>
@@ -300,6 +300,23 @@
                         <configuration>
                             <excludeTransitive>true</excludeTransitive>
                             <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+            <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>Delete EIP Odoo OpenMRS folder</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <delete dir="${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/${eipOdooOpenMRSArtifactId}" />
+                            </target>
                         </configuration>
                     </execution>
                 </executions>
