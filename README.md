@@ -28,6 +28,32 @@
 ## Release Notes
 
 <details>
+  <summary><b>Version 2.2.0</b></summary>
+   <ul>
+    <li>Depends on:
+     <ul>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#release-notes">Ozone Haiti 1.1.0</a></li>
+     </ul>
+    </li>
+   </ul>
+
+   <b>Specific notes</b>
+
+   <ul>
+    <li>Removed registration form concepts and configuration.</li>
+    <li>Removed vitals and biometrics form and configuration.</li>
+    <li>Updated location hierarchy.</li>
+    <li>Increased attachments max upload file size to 12MB.</li>
+    <li>Fixed sale order price recalculation Odoo Add-on.</li>
+    <li>Added text of encounter note missing concept.</li>
+    <li>Updated Doctor role privileges and added Nurse IPD role.</li>
+    <li>Added missing groupId in pom.xml.</li>
+    <li>Used eip-odoo-openmrs version 2.1.1.</li>
+    </ul>
+</details>
+
+<details>
   <summary><b>Version 2.1.0</b></summary>
    <ul>
     <li>Depends on:
