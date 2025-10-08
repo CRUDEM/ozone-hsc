@@ -170,6 +170,27 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>Copy Docker Compose proxy override file</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/proxy/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/scripts</directory>
+                                    <includes>
+                                        <include>docker-compose.yml</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <!-- Copy Monitoring Binary Resources -->
                         <id>Copy Monitoring Resources </id>
                         <phase>process-resources</phase>
