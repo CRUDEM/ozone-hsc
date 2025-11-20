@@ -113,7 +113,7 @@
                             <overwrite>true</overwrite>
                             <resources>
                                 <resource>
-                                    <directory>${project.build.directory}/ozone-haiti</directory>
+                                    <directory>${project.build.directory}/${ozone.artifactId}</directory>
                                     <excludes>
                                         <!-- Effectively disable inherited exclusions -->
                                         <exclude>non-existing_file</exclude>
@@ -122,6 +122,7 @@
                                         <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
                                         <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
                                         <exclude>distro/configs/odoo/initializer_config/**</exclude>
+                                        <exclude>distro/configs/analytics/**</exclude>
                                         <!-- Temporary: exclude non-functioning Odoo add-on -->
                                         <exclude>distro/binaries/odoo/addons/sale_order_price_recalculation/</exclude>
                                     </excludes>
@@ -322,6 +323,7 @@
                         <configuration>
                             <excludeTransitive>true</excludeTransitive>
                             <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
+                            <includeArtifactIds>ozone-pro</includeArtifactIds>
                         </configuration>
                     </execution>
                 </executions>
