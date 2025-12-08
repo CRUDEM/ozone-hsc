@@ -40,7 +40,7 @@ c9d6f1cc-6d7d-4ef3-9215-8c563acdf5c2,,,Obstetric (ER),Obstétricales (ER),,,,,Mi
 7751d3df-884c-4b23-8e3a-80388bd9fdae,,,Medical / Surgical emergency (ER),Urgences médico-chirurgicales (ER),,,,,Question,Coded,,Digestives (ER);Respiratoires (ER);Cardio-vascul (ER);Urinaires (ER);Ostéo-Articul (ER);Lésions trauma (ER);Obstétricales (ER),,,,,,,,,
 e127d9cc-aac5-4f91-9dad-0f33edbed2ce,,,Fall in person aged 65 and older (ER),Personnes âgées de 65 ans et plus avec chute (ER),,,,,Question,Coded,,True;False,,,,,,,,,
 1c8bb76c-1832-4dec-b757-eb796b8165fe,,,Other reason for emergency (ER),Autres causes d'urgence (ER),,,,,Misc,Text,,,,,,,,,,,
-6b8024cb-d2fa-4627-a0b8-5de6e3f6f103,,,Anamnesis (ER),Anamnese (ER),,,,,Misc,N/A,,,,,,,,,,,
+6b8024cb-d2fa-4627-a0b8-5de6e3f6f103,,,Anamnesis (ER),Anamnese (ER),,,,,Misc,Text,,,,,,,,,,,
 324201d4-0e17-496c-945e-f3ee4202e963,,,Infusions (ER),Infusion/tea (ER),,,,,Question,Coded,,True;False,,,,,,,,,
 f099bb29-a6cf-49eb-9efb-8b1d06d6a7ed,,,Reasons for consultation (ER),Motifs de consultation (ER),,,,,Misc,Text,,,,,,,,,,,
 1d481a5f-f8e0-43ba-8732-5b5e22180d93,,,Up to date,À jour,,,,,Misc,N/A,,,,,,,,,,,
