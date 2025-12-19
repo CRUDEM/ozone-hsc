@@ -19,7 +19,7 @@
               "questions": [
                 {
                   "type": "obs",
-                  "required": false,
+                  "required": true,
                   "id": "motifDeConsultation",
                   "questionOptions": {
                     "rendering": "select-concept-answers",
@@ -47,7 +47,7 @@
                 },
                 {
                   "type": "obs",
-                  "required": true,
+                  "required": false,
                   "id": "duration",
                   "questionOptions": {
                     "rendering": "number",
@@ -59,7 +59,7 @@
                 },
                 {
                   "type": "obs",
-                  "required": true,
+                  "required": false,
                   "id": "timeUnits",
                   "questionOptions": {
                     "rendering": "radio",
