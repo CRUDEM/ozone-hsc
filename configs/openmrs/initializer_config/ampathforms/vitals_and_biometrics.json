@@ -102,6 +102,18 @@
                   }
                 ]
               }
+            },
+            {
+              "label": "Blood Sugar Level (mg/dl)",
+              "id": "bloodSugarLevel",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "f52d731e-58da-4f3a-a480-77c5e9d8d2eb",
+                "min": "0",
+                "step": 1
+              },
+              "validators": []
             }
           ]
         },

@@ -12,6 +12,7 @@
         "Temperature": "Temperature (Celsius)",
         "Respiratory Rate (breaths/min)": "Respiratory Rate (breaths/min)",
         "Oxygen Saturation (%)": "Oxygen Saturation (%)",
+        "Blood Sugar Level (mg/dl)": "Blood Sugar Level (mg/dl)",
         "Systolic Blood Pressure (mmHg)": "Systolic Blood Pressure (mmHg)",
         "Diastolic Blood Pressure (mmHg)": "Diastolic Blood Pressure (mmHg)",
         "Level of emergency severity assessment": "Level of emergency severity assessment",
