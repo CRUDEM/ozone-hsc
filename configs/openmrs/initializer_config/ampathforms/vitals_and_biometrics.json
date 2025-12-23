@@ -102,6 +102,27 @@
                   }
                 ]
               }
+            },
+            {
+              "label": "Blood Sugar Level (mg/dl)",
+              "type": "obs",
+              "required": false,
+              "id": "bloodGlucose",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "step": 1,
+                "disallowDecimals": true,
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "887"
+                  }
+                ]
+              },
+              "validators": []
             }
           ]
         },
