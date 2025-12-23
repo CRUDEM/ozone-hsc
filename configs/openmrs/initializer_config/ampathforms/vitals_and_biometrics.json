@@ -105,13 +105,22 @@
             },
             {
               "label": "Blood Sugar Level (mg/dl)",
-              "id": "bloodSugarLevel",
               "type": "obs",
+              "required": false,
+              "id": "bloodGlucose",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "f52d731e-58da-4f3a-a480-77c5e9d8d2eb",
+                "concept": "887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "min": "0",
-                "step": 1
+                "step": 1,
+                "disallowDecimals": true,
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "887"
+                  }
+                ]
               },
               "validators": []
             }
