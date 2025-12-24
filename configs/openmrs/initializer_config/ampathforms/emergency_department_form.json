@@ -9,10 +9,10 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Motifs de consultation",
+              "label": "Reasons for consultation",
               "type": "obs",
               "required": false,
-              "id": "motifsDeConsultation",
+              "id": "reasonforConsultation",
               "questionOptions": {
                 "rendering": "textarea",
                 "concept": "f099bb29-a6cf-49eb-9efb-8b1d06d6a7ed"
@@ -717,7 +717,7 @@
   ],
   "processor": "EncounterFormProcessor",
   "encounterType": "f6c2a7eb-d0dc-47fc-931d-868ba5cae5e81",
-  "encounter": "Urgence",
+  "encounter": "Emergency",
   "referencedForms": [],
   "uuid": "123d2a47-ad72-47bd-ba07-5119c9761b74",
   "description": "Emergency Department Form",
