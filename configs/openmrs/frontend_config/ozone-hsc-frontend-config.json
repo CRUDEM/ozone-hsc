@@ -294,14 +294,29 @@
             "resultsName": "Life Style",
             "data": [
               {
-                "concept": "faba8eb0-d7f7-4f01-92af-b595c035a7a6",
-                "label": "CAGE Score",
+                "concept": "16a035ea-acf0-4e54-9c63-ffd126aaa3f7",
+                "label": "Use of alcohol",
                 "color": "green"
               },
               {
-                "concept": "4d24f560-7c9d-448c-8767-66ba584588a2",
-                "label": "Pack Years",
-                "color": "red"
+                "concept": "61ac6631-a248-4dae-bd32-33520d26c04d",
+                "label": "Tobacco use",
+                "color": "green"
+              },
+              {
+                "concept": "386d919c-32c8-4621-b922-8b38f5db3c10",
+                "label": "Marijuana",
+                "color": "green"
+              },
+              {
+                "concept": "de52f07a-d72a-44d0-8f4e-c7698ae4d798",
+                "label": "Other Substance",
+                "color": "green"
+              },
+             {
+               "concept": "ebd6e645-10d1-47dd-9740-5f8aa609b414",
+               "label": "Exercise",
+               "color": "red"
               }
             ],
             "table": {
