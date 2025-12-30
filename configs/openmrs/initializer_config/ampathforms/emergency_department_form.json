@@ -717,7 +717,7 @@
   ],
   "processor": "EncounterFormProcessor",
   "encounterType": "f6c2a7eb-d0dc-47fc-931d-868ba5cae5e81",
-  "encounter": "Emergency",
+  "encounter": "Urgence",
   "referencedForms": [],
   "uuid": "123d2a47-ad72-47bd-ba07-5119c9761b74",
   "description": "Emergency Department Form",
