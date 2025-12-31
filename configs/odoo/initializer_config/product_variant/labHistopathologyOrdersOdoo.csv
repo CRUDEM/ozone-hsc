@@ -1,7 +1,5 @@
 id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
 init.bbcce99c-72fa-4a73-9a3d-75ae46f53c7e,Cytologie (frozen sop),product.categ_services_lab_histo_test_orders,service,FALSE,TRUE,Ordered quantities
-init.9500bc0d-db27-442c-890d-3780f1717156,Biopsie,product.categ_services_lab_histo_test_orders,service,FALSE,TRUE,Ordered quantities
-init.bd076d60-4415-4e3a-bb1f-52ad5b296088,BAAF,product.categ_services_lab_histo_test_orders,service,FALSE,TRUE,Ordered quantities
 init.87dc951a-e405-45dd-9c21-a43e7d6190d2,Pap Test,product.categ_services_lab_histo_test_orders,service,FALSE,TRUE,Ordered quantities
 init.10b1ae64-c75c-490e-befa-6ab7c27b9e40,Biopsie + Colposcopie,product.categ_services_lab_histo_test_orders,service,FALSE,TRUE,Ordered quantities
 init.cbb6bba3-28ea-45ce-9c0f-03c0d49d8288,Recherche de Cellules Malignes,product.categ_services_lab_histo_test_orders,service,FALSE,TRUE,Ordered quantities
