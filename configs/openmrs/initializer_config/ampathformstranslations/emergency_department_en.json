@@ -1,11 +1,11 @@
 {
   "uuid": "7035a9b1-b594-4759-b3e1-b08d03add0de",
-  "form" : "Emergency",
-  "form_name_translation" : "Emergency",
+  "form": "Emergency",
+  "form_name_translation": "Emergency",
   "description": "English translations for the Emergency form",
   "language": "en",
   "translations": {
-     "Emergency": "Urgence",
+     "Emergency": "Emergency",
      "Emergency Assessment": "Emergency Assessment",
      "Details": "Details",
      "Reasons for consultation": "Reasons for consultation",
