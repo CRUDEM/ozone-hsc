@@ -1,7 +1,7 @@
 {
   "uuid": "5890281c-a3b5-485c-be7c-5ab6913de454",
-  "form" : "Emergency",
-  "form_name_translation" : "Urgence",
+  "form": "Emergency",
+  "form_name_translation": "Urgence",
   "description": "French translations for the Emergency form",
   "language": "fr",
   "translations": {
@@ -37,6 +37,6 @@
      "Musculoskeletal": "Musculosqueletique",
      "Genitourinary": "Génito-urinaire",
      "Gastrointestinal": "Gastro-intestinal",
-    "Cardiovascular": "Cardiovasculaire"
+     "Cardiovascular": "Cardiovasculaire"
   }
 }
