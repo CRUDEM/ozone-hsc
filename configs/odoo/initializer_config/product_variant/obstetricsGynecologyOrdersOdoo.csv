@@ -32,7 +32,6 @@ init.70ed8828-d53c-4078-9190-675e8b0e4587,Hystérectomie Totale + Annexectomie B
 init.e2f49bb3-3f01-4dc8-b4e3-4c5525ec0743,Hystérectomie Vaginale,product.categ_services_obstetrics_orders,service,FALSE,TRUE,Ordered quantities
 init.e6841b5f-74c5-46ff-9822-13ae3becd127,Insertion Pessaire,product.categ_services_obstetrics_orders,service,FALSE,TRUE,Ordered quantities
 init.8a9abcf2-77fd-4964-a7fd-a7f2b4d5606f,Kystectomie bilaterale,product.categ_services_obstetrics_orders,service,FALSE,TRUE,Ordered quantities
-init.db1e0d1b-faed-4383-97db-ab54bc483758,Laparotomie exploratrice,product.categ_services_obstetrics_orders,service,FALSE,TRUE,Ordered quantities
 init.028f475f-657d-4a48-9a4e-37d33867b3db,Leep,product.categ_services_obstetrics_orders,service,FALSE,TRUE,Ordered quantities
 init.d79e6c23-8518-499c-92ba-79feac42d8f7,Leep (kyste cervical),product.categ_services_obstetrics_orders,service,FALSE,TRUE,Ordered quantities
 init.b30cd7da-da89-41b4-a099-cf42a54e6438,Marsupialisation /Bartholimit,product.categ_services_obstetrics_orders,service,FALSE,TRUE,Ordered quantities
