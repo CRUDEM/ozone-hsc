@@ -7,6 +7,33 @@ init.e646c4ac-61c6-4e28-8ef0-fc9e300fd356,Absces ischion-rectal,product.categ_se
 init.ff24865a-3b1c-4535-a237-a9d1c5446766,Absces pilonidal,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.48dedfe4-096b-4167-9a9f-0601479f8bea,Absces residuel abdominal,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.74d18eb5-8cc8-47f2-86f2-acd90e0ccc83,Absces sous cutané,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0e2b764f-60e7-4604-9779-c08bacac0ede,Abces (drainage) multiple général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b1c5db7d-bae5-40f5-9710-eb8b31c94d8d,Abces (drainage) multiple local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.2aad8552-f5aa-4f73-ad8b-6deaf542777c,Abces (drainage) multiple sédation / rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.fe63a126-e5f5-48a8-b2df-fcbe40846bbb,Abces (drainage) unique local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1e79af3b-b366-4829-8e0b-a5b0c4037a87,Abces (drainage) unique rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0a14572a-a354-42be-ba77-f304ba96f681,Abces (drainage) unique sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.14a5b887-9af0-49ba-8c1c-5c4c7ed2b76f,Ablation de fil,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.73245064-2785-4a95-888c-c4eeecd542d5,Adenofibrome des seins local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.c7f68241-6859-4866-871a-9428254e6f6d,Adenofibrome des seins sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.266b8679-5199-418b-84cc-589ca19a7c65,Adenofibromme du sein unilateral général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.2332a8d4-0669-49cc-ba8a-14356bb73063,Adenofibromme du sein unilateral local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3d88ea49-06eb-442a-ad93-ced51b1b92d6,Adenofibromme du sein unilateral sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.483b7be8-0722-4a90-8eea-85e3384503ba,Adhesiolyse rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e46b1145-d4e3-429c-804a-f0d896555904,Adhesiolyse sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.9b5d9cb8-2993-4638-806e-d3f2f5139807,Amputation avant bras,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.23c71337-a278-46af-94af-f6728b169fea,Amputation de chopart,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.24f4f561-5f71-42b4-b526-3dc61a529638,Amputation de lisfranc,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.46ca7cfe-0b21-4c4b-a666-55d7192cd3e3,Amputation de syme rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1abac3fe-7bce-488e-a5af-421ab0cd870d,Amputation de syme sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.d25b1af3-70f7-44fe-9e07-95ff255e8459,Amputation infra condylienne (BKA),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.60fe2c98-e69e-4a60-ae7d-4ea8c9b169eb,Amputation supra condylienne (AKA),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ec664599-eae2-45b8-9cb0-1499b0c4872e,Amputation transhumerale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e15aab1b-a56e-4071-a6bf-34c00afa33c3,Anoplastie simple,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.10e726e4-d869-42df-bac2-c5d3beb32c8e,Appendicectomie général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.64ba471a-376f-4a58-bcfc-f8a901d31e97,Appendicectomie rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5d302a5f-5bf1-4ae8-81e0-de7b7009294e,Biopsie incisionnelle local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.adb835d8-c4a7-4586-8ead-76c39dae53c9,Biopsie incisionnelle rachi / sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.c75be2cb-a405-455f-a95e-0389763dcc2d,ADF (Lympectomie),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.01af89db-d57c-4a6f-8454-8a8d5b7079e8,Amputation Avant-Bras,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.fdfc9fc4-d988-4f0f-82cb-4e9ca87feb96,Anoplastie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
@@ -14,16 +41,62 @@ init.3adc220d-6c23-466e-8099-d1523f619cd7,Anthrax,product.categ_services_general
 init.5b956ec1-6fc7-478e-9107-78d6bb8ea6a8,Appendicectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.89896dd2-365e-412e-b31c-161651280e56,Caecostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.31eb5bcb-8f1e-47c1-9398-19afc1cde3e2,Cauterisation (verrue),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8c4d52ff-50a4-43b1-8cde-7c730f219615,Caecostomie général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b0b14d92-ed8e-44a0-ad88-ceb251c843e4,Caecostomie rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.714bdb81-7391-4284-a780-a1da2a045a81,Cauterisation général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.51357013-7221-4f0b-b24a-a733f6556ebc,Cauterisation local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b52f8b99-0c3f-40c8-891c-ee334e1b39ea,Cauterisation rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.239ef4eb-81ac-44a5-aa0e-c13b4dc2b795,Cerclage anale rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.68f032a3-0e3e-4efa-8826-6c9605f7726d,Cerclage anale sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.a48d571a-f446-4d93-973b-33ddd3293e2e,Cholecystectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5574a7e4-1ec3-45d5-8be2-b898381a4881,Circoncision,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.d19fa55e-91e0-4f47-bd88-07185e425052,Colectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.cbd7a23b-15cb-41f0-af5e-de104c3ef301,Colorraphie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.a177ce32-41e4-49f9-a44a-42920c1004bc,Consultation chirurgie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.dfebef8b-9155-4a41-ac5e-7c2db4f012d3,Cholecystectomie Laparoscopie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.b555bd2e-d6f2-4960-bec7-6e02f91b39ff,Cholecystectomie Laparotomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.f07b575e-2314-4ef7-8fb4-c8b2a946af20,Colonoscopie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.e71c7f87-f6ee-4ed0-b62a-566f2675f26b,Colostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.4b64133e-a2ed-4081-ab4c-33a78ac4def3,Condylome,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b5f48793-9083-4d60-ab7a-6adbc63c4e00,Damage control,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.6f086c18-9f6f-455a-a728-6545da7edd9b,Debridement  large étandue,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.396a9a35-ad73-43be-a715-ec3e8908d7a5,Debridement large général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.897b8a59-ad89-4253-a74d-09ae7a3d76e2,Debridement large local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.35ba532c-a540-4a6c-90c4-0afd8a0d20d2,Debridement large sédation / rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.19c216f4-be51-4263-87ef-2cf72d372f00,Debridement mineur général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.800f48ba-feee-4541-bdd3-3a8101f3a482,Debridement mineur local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.a274078c-e256-4079-a826-48b90e543707,Debridement mineur rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.849e3e91-c7e1-4bf8-bb57-d80f0dd650c6,Desarticulation 1 doigt ou orteil local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.33688ce1-21b8-4975-a512-413a9a36613c,Desarticulation 1 doigt ou orteil rachi / sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.d9452585-060b-475d-b9aa-1ded79a363d5,Desarticulation 2 doigts ou orteil local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.2ac6f135-bbea-40f0-b6e7-cc837f59826b,Desarticulation 2 doigts ou orteil sédation / rachi / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.88e69a1b-d9fc-47bd-935c-ac2c1742a956,Desarticulation 3 doigts ou orteils local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6cb08e24-2393-45ae-b3ba-7bf58e6fe8d8,Desarticulation 3 doigts ou orteils sédation / rachi / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6082d288-44a4-48da-8940-e05075c3136e,Desarticulation doigt surnumeraire 1 doigt ou orteil général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.57386d18-8b9d-44d0-bd41-4a19e89f19b5,Desarticulation doigt surnumeraire 1 doigt ou orteil local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8cecf751-747d-45fe-a02e-fda09dd29a16,Desarticulation doigt surnumeraire 1 doigt ou orteil rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3da384d1-4be7-4946-8f66-fe97b3fe3344,Desarticulation doigt surnumeraire 2 doigts ou 2 orteils local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8f221d58-ef7d-4f19-afb0-dd84f47cc275,Desarticulation doigt surnumeraire 2 doigts ou 2 orteils rachi / sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.a4740673-737a-4771-8226-5bdbf70f86f6,Desinvagination,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3fd5068f-1130-4470-9677-7bc75dc0b487,Drainage thoracique sous eau,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.9e19c088-7980-48ff-85b5-a1a6c8ab8477,Duodenostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.1cf66462-effe-442f-964e-abc07769ba1c,Debridement petite étendue,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.cf2f07c4-3472-488b-a9f8-31fea2602782,Drainage absces sous phrenique,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.c563f23f-f198-4c4e-977e-156398987b57,Drainage thoracique,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.d0d544d4-9e44-4729-903f-0b96d3b6b0b6,Evisceration sans lesion intra,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.aeb6842a-2883-4be3-ad3d-3d82076b5db3,Exerese granulome général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.9a5a9859-da8d-483f-95f7-10f9c0842275,Exerese granulome local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.4afe3714-b0b7-4adb-a348-73a7b7e72fb7,Exerese granulome rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.541ee743-b00c-43ee-95e2-44a740129fef,Exerese lipome geant,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.76127b70-351e-4a6b-951d-94dc855bd6ad,Exerese lipome multiple,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.70cf486d-91a4-4722-b406-fc32b7dcf474,Exerese lipome simple et unique,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.54fb9b33-01fc-4a8c-a193-db59d85e03c2,Extraction de corps etranger général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6b29ef24-4ef6-4841-90ea-3eda5c60b2b4,Extraction de corps etranger local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5b91a979-5de9-45a0-9e14-bbfcb0575712,Extraction de corps etranger rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.9728d3e4-46d0-449b-90c6-3132a159ce89,Extraction de fecalome,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6bc8968b-de3f-49b8-8448-b090eed30402,Extraction de projectile général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.10b59489-8669-4d92-ab4a-086b74e24c85,Extraction de projectile local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0ac96b0e-0537-4057-a8cd-2c9f5ddfaf4d,Extraction de projectile rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.bdedc945-2ae3-4a99-a7ec-dd4a11c1bc4c,Extraction de projectile/Bassin (Orthopedie),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.4426413f-6fc6-4476-bdec-4de7a9760113,Extraction de projectile/Cage thoracique,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.db0947a5-683f-4210-a8b0-fdcfeabbb2cb,Extraction de projectile/Cavité abdominale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
@@ -36,12 +109,45 @@ init.c95238bf-0bbb-4f21-adf5-90dfe7453e82,Fascite Necrosante (Débridement et la
 init.9c00f14c-1cec-494a-8ae2-2e6e9f10b881,Fascite Necrosante (Débridement et lavage-Reprise),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.8350f01e-884c-4513-a290-54484658d14f,Fissure anale/Sphincterotomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.5f5d2fa7-80bd-448b-abc4-e7e971b2851d,Fistule - Reparation anale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.7d7260b9-4b18-49c1-9d93-1612433a8688,Fissurectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.4c68fd1b-8248-407e-bc9e-cb3306d05e7d,Frenectomie du penis,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.f59ca401-8005-4a60-881e-e31f427c9361,Frenectomie sous linguale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.d49a6d2a-cc2e-4828-b864-328b2b6dbd6f,Gastrectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.bafe466a-d346-4b32-81c6-b4dd4bb58edb,Gastrectomie partielle,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0581bfaf-863c-4f64-91cc-1ca6aaa7ede4,Gastrectomie totale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.79f29d2d-1822-4231-99b6-1d2d47f85dd1,Gastrostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.756c3a7a-37f0-4ae9-aee4-2a344c2b9ec7,Gastrostomie d alimentation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b06f6784-c716-4d40-a321-e97c49c6e3ea,Greffe de peau mince 10-25,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.7231df2e-8a40-46c9-b399-e33f59e4abff,Greffe de peau mince 25-50,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.fe911aea-c2ca-4ca5-9b99-0409f63679e4,Greffe de peau mince 50-100 général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.d6814e97-04f6-4538-baa1-1e2befdf67ef,Greffe de peau mince 50-100 rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.3b4ed5bf-e967-4db2-aca2-27152c43628c,Greffe de peau mince,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.31d0bb43-88f4-4e1c-ba13-b7b7319ee74b,Gynecomastie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.d0de8250-bc78-4440-9eb7-9a599872da6c,Hemi arthropastie de la hanche,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.d8c485a0-a2ad-4801-8af0-10e0af9c857b,Hemicolectomie droite ou G,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8a3c0f83-33cb-49ff-a4d6-001bbe709274,Hemicolectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.bab8709f-3547-40f3-a1a2-94d7ce65e783,HemiThyroidectomie droite ou gauche,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.76ea7573-97da-4cfc-a8cb-1fffa0126cde,Hémorroidectomie général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.2604ba25-b799-44a4-9bbc-0ab16dda51d7,Hémorroidectomie rachi / sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.33270591-3c80-4216-9c84-01911a43fd20,Hepatectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5054ecd9-c870-4a01-9b31-49e08f7e18e7,Hernie inguinale étranglée rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.7b698b39-fb83-4ea8-a8b6-a0cf6ad123d6,Hernie inguinale étranglée sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.336048b5-aea4-4589-bed9-6f0c20cf20af,Hernioplastie inguinale bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.67fc402e-f60b-49e7-b014-257f1bf7d37b,Hernioplastie inguinale unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b8851acc-d7e6-4855-b609-2deb030d7911,Hernioplastie recidive,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.28662d31-8c46-4a51-b6d1-72071dceecc2,Herniorraphie epigastrique rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6feec20a-d98c-4a6a-8daf-6c8ab2fcc58f,Herniorraphie epigastrique sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1aa4eede-e4a2-4709-9d65-56447eb2efa5,Herniorraphie incisionnelle rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ac9b6d73-535e-48ea-a1fa-8d1f7d1f104d,Herniorraphie incisionnelle sédation / générale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8855e99d-410a-4c0f-be8e-7079810f4c79,Herniorraphie inguinale bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.22cfbc93-7254-4492-82c0-db433a517ca2,Herniorraphie inguinale unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.4165aaf0-8d79-4d31-aa39-e1195bb13bbb,Herniorraphie ombilicale étranglée,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.cef9522d-012b-4e09-b2cf-be19cb74f3f3,Herniotomie bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ea169a1f-c593-4b4e-b498-f93455f4eaa3,Herniotomie unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8f320833-becc-49a1-b02e-584d8001e41f,Hernorraphie ombilicale rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.9732c0da-2708-4dc3-8efb-9bddea136cc9,Hernorraphie ombilicale sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5df5f6eb-a679-4afc-ae17-a2fbbe760620,Hydrocelectomie bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.71aeef38-c795-4f1c-94c8-a6229a6f162b,Hydrocelectomie unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.4f9570da-5ed1-4ff7-956c-357c63ff379a,Hemorroides,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.ba0e6fb2-8ed1-4329-826f-09cbf9eff59f,Hepatorraphie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.e91eb72a-5190-4818-8a93-c8f8d8fb429c,Hernioraphie ombilicale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
@@ -53,16 +159,41 @@ init.927bedd7-5ef4-478e-9fe7-7ce17a636aef,Herniorraphie ombilicale etranglee/ av
 init.86dd5c5a-e3ac-44f0-b24f-01a215522118,Hydrocele bilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.83a46f7a-1317-4c0f-aa58-d518ed1aebe2,Hydrocele et Kyste du cordon cure,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.050aad59-4674-4804-88d4-c5d572233ba5,Hydrocele unilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e1fb669a-a895-40a1-a54d-689f7ec05e52,Ileoraphie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3357fae0-b42b-470a-8d11-237090b90616,Ileostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.768863a3-efe0-4554-8e9e-6615ecb7f51b,Incision & drainage abces,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.ceaf7353-f2ea-4daf-a7e6-69f24ca0f43c,Incision & drainage Phlegmon,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6d5b3f0b-0e30-40c6-8ba3-ce1ff092859e,Incision / phlegmon local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.693d4787-6188-4c59-9a52-06a29b7bc1e9,Incision / phlegmon sédation / rachi / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0a0646c3-f4cc-44d2-bdf1-0290e304fefa,Infiltration cheloidienne majeur,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e7051d41-e0a9-4c6a-ac72-df81c96b2e0a,Infiltration cheloidienne mineur,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.dfd1a1d4-245c-405b-9652-9435f23fe2be,Infiltration cheoidienne multiple,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.8fccddbc-62f8-4b1f-98ee-4433391ccd66,Invagination intestinale - Desinvagination,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.918b51bf-dab3-4b7a-a413-486dbdefcdcb,Invagination intestinale - Résection +Anastomose,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.bf705c07-a7db-4128-8ff9-e779ae512a89,Jejunorraphie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.c76ee79f-b22c-40c3-9d35-83e776b88511,Jejunostomie d'alimentation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.2a82cdc2-3a7a-47a4-a192-9c1294e6ce81,Kyste du cordon simple,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.8f720b9d-8b4d-4868-bb49-92ac2d2c59e2,Kyste Exerese,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.2d6a36ae-2aeb-476f-8114-a960ede6fbaf,Kystectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.984c4998-ee21-49ab-84ad-298a110c0cff,Kystectomie tenosynovial local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6be8a852-aeb2-4461-a732-3c865bfee7c6,Kystectomie tenosynovial rachi / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.97887368-15d3-4783-9fb2-94a66c783ed0,Kystectomie tenosynovial sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.37483c85-6081-4c07-8515-29b80463f91c,Kystectomie thyreoglossal,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.683639b3-7972-451a-b995-7db24c77ca3d,Laparotomie diagnostique,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.db1e0d1b-faed-4383-97db-ab54bc483758,Laparotomie exploratrice,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.3a52dc56-87e1-4473-ae17-21673f645751,Laparotomie Exploratrice avec resection ou reparation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.d3543e8f-1561-43be-9f96-2b1bed0d83fe,Laryngoscopie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ade79417-7483-4186-8327-17465dab7f3d,Lympectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.055113b9-6763-4bb2-bedc-08b542dde53a,Lipome Exerese,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.b767429c-8d5e-4cf2-a4e5-a25add81d78f,Lithiase renale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.c913ee52-b853-4042-80ef-a771f9ff0729,Mammectomie bilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1c537af0-ceb2-405b-835f-325ed9b61a3f,Mammectomie unilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.fb2fbd5d-a16f-4e97-a898-d6f1936c0c2a,Mastectomie avec curage ganglionnaire bilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3dcc35e2-6bb1-4ea2-9276-8c23f5d8f5d5,Mastectomie avec curage ganglionnaire unilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5fe75a61-f12b-4276-b9d1-3f3a780614c7,Mastectomie simple bilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1256ac99-caff-4464-8543-8adf16ce4399,Mastectomie simple unilateral,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0f7ac5ea-adf2-4a4a-b032-98d7f225dddf,Mise à plat,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1ec0ba02-fb34-4e8d-8c14-8f584f39ceab,Mucopexie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.1dade6e6-fbcc-425a-ae2b-6a33fbb0321d,Marisque hemorroidaire,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.63e0de56-5bc4-4cc2-853c-730b0935fc7d,Mastectonie + Flapp,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.c77a4532-2329-4d05-a16a-fc39f1ad898c,Mastectonie de propreté,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
@@ -72,21 +203,76 @@ init.11552a69-f641-4c92-ab5b-b1256f919989,Occlusion avec resection colique,produ
 init.0128ed2a-aa82-4f8e-ad3d-a26e1764bd99,Occlusion sans resection,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.7eefedbb-1085-451c-a578-0a0a9ae9d40f,Occlusion sans resection grele,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.8c6bcc4d-2932-4717-b277-947e411cf315,Onycectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b476e1ab-547d-4553-a207-82629d8f8f08,Onycectomie partielle,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.03071ae6-4c10-4608-a221-ad3c76f483ca,Onycectomie partielle ou Totale bilatérale local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.4acf3052-7afe-4dc3-bc24-25f44e8f6a03,Onycectomie Partielle ou Totale Bilatérale Sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.c0e8d8bf-bec1-416f-afd5-3300bd7a5145,Onycectomie totale unilatérale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.9c4c0486-c4e1-4c42-8322-c8925186e84e,Orchydopexie bilatérale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8f304468-0e9d-4436-821a-d76853fade0c,Orchydopexie unilatérale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e0eddcab-efe5-47f1-91f2-c2a6243fb2a6,Pancreatectomie partielle,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.da53eeee-600d-4617-aa99-b54402803b23,Pancreatectomie totale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.c6cddf7c-99d0-4dec-9d96-117f89868b4d,Pansement majeur gras,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.de020930-8828-481d-950f-f773abf9b89d,Pansement majeur humide,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6786472b-8689-4406-bda1-0320ac539074,Pansement majeur sec autres,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.baa81c2f-f419-48c6-9121-2c9ae205f987,Pansement majeur sec général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.2ff2ed2a-d3bc-4ee7-97ac-99464c66fd53,Pansement majeur sec rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ff6a0f16-9bf1-4f1f-a4b4-dc8d2fcd9d04,Pansement majeur sec sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.59307513-7e53-4629-a624-da397bef0351,Pansement mineur gras,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.c32247ed-5899-4b05-9af6-df2ee18644af,Pansement mineur humide,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1e23c439-be80-4e67-91bf-9653e30c3cb2,Pansement mineur sec 10-50 autres,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.f8e2ec91-238f-437d-a63c-aa4d40e460e7,Pansement mineur sec 10-50 rachi / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.845608aa-39fc-4d56-bf81-a3898af3d90b,Pansement mineur sec 10-50 sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1201586f-3302-4091-9e7e-9f6ff28f7498,Parotidectomie partielle,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.eea54c58-126d-4d29-a2d3-22dd9c4a9691,Parotidectomie totale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.a1e4a707-2de5-45cc-b548-1b86bae4423c,Peritonite appendiculaire,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0ddaa144-2ed1-43f1-9151-e22bfe237db2,Phrenorraphie général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.feb7625d-8c54-4b27-ae6d-5175515f960b,Phrenorraphie sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.c0c487a3-dbfa-4034-8459-178522ba2a82,Plaie vasculaire,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3f791c10-6e7b-49f5-88f7-007b43e6e1b1,Protopexie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ea7fac56-ba72-4106-826e-558b61614dff,Pylorotomie / pyloromyotomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e74b711c-0413-49ee-89c0-4bdb5523a245,Quadrantectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.237a4537-ce79-4672-9328-3889e8745167,Rectal prolapsus reparation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.52653d4f-c8cc-4c5e-9531-e3747da9c5d4,Rectocele,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.0cc7c3ca-7605-482e-b2b9-94b3f0a784b5,Rectopexie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8a66be2a-f0a6-489b-89a5-913e4424e911,"Reintegration stomie (jejuno, ileale, colique) avec laparotomie",product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e1a6055a-cac4-46c5-80fc-5ebbc55279de,"Reintegration stomie (jejuno, ileale, colique) sans laparatomie",product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ac683ec1-9f97-4b6d-96e2-26c5c596b3d4,Reparation de plaie 25 a 50 local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5e0242b1-2873-4d1b-b7ae-18664bc0d895,Reparation de plaie 25 a 51 sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6ab5d537-f1e3-48a7-b6df-859fe7cc70d8,Reparation de plaie 25 a 52 rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.d4c7635d-ee1a-4e75-abd3-070760c6955d,Reparation de plaie 25 a 53 général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.9d188449-d4d5-4abe-93a1-c6ef393dbfe7,Reparation plaie de 10 a 25 local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3fb5c97f-21cd-42da-90a3-63b4391cb419,Reparation plaie de 10 a 26 sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.2750255e-9e90-4bdf-bc2e-3bdd1f8f06ad,Reparation plaie de 10 a 27 rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.16dea3e8-dd55-47eb-900b-e4e4efb3307e,Reparation plaie de 10 a 28 général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1d611137-6691-47d4-b822-1caa30f2f776,Repartaion plaie >50 % de SC,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.64f81e3c-85a4-409e-8fb0-0642ba1b18bd,Reprise laparotomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.e7c23ec7-93c0-412e-b592-98e9b4ed3cc6,"Resection anastomose (jejuno jejunale, ileo ileale, colo colique)",product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.19ac3557-3b36-4465-879c-1b8d50dead39,Reintegration Colostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.9c4e3715-0c6e-4df0-abdd-98da3ff62ca4,Reparation eventration,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.683abf72-f9d2-48a4-9adb-9b885123ff04,Reprise Dilation Anale (1ère intervention à l'HSC),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.669abc10-ed6b-4343-b3fd-845283170846,Reprise Dilation Anale (1ère intervention hors de l'HSC),product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.d28a08aa-30e4-4e08-8a4d-392359d94bd2,Splenectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.53f77b2c-62e2-4d79-b47e-784ae5f7542a,Sphincterotomie laterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.b5caa85f-956d-4cf9-be2c-d2034b8af3a6,Stenose hypertrophique du pylore,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.8434d13e-51c0-4f1f-9683-d5c1c48fab82,Sternotomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.770a6c49-260a-48bc-8825-48c82c9c3854,Splenorraphie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.3b81f57a-2758-4253-82ce-fe643af633d9,Stenose Hyperthrophique du pylore,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.99431313-22cd-4e48-8f3e-21bcd5055d10,Thumb granuloma,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1d63a8cb-7b2b-4c4a-836a-7b5693309d23,Thoracostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1f815f35-933b-4bba-87b2-d56e2b32040b,Thoracotomie d'Hemostase,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.ab61260d-2a6d-4484-9aa0-28b16d512e64,Thyroidectomie totale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.3355a151-7a72-4911-a50a-a84f8a7d2235,Tracheostomie selective,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.901c02e0d-f707-4599-8a55-0f99ef18e35e,Tracheostomie urgence,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.5ba040f0-4a5a-4d1d-8eaf-dfcf9dd267f2,Tumorectomie général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.1d03a6c3-ff8e-4ca0-ab08-99538ae00b6a,Tumorectomie local,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.f463c568-fc43-4425-b3c1-4af35e22fa72,Tumorectomie rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6b08fd25-c2fe-49f8-a87f-2ce1de124a6f,Tumorectomie sédation,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.b8c762b0-257f-4e9d-b1d8-6653be501cf7,Thyroidectonie subtotale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.9b113d30-00ac-45e1-bee9-098b9d542497,Thyroudectonie Totale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.12eda9fe-b44a-48e9-b6be-49f85bddffa5,Tracheostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.a4bc5514-9e7b-4a92-a165-b64de5e30d79,Ulcere / perforé & suture patching,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.05efc5d9-73fd-4af8-b4e9-563ca091ed88,Ulcus perfore,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.6b744c88-90c2-40c2-9fa3-90ea12ca476c,Vagotomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.cc52f3af-a706-43ba-bf62-72fc7fa98f2d,Vagotomie & gastrogejunostomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.9acea618-3b5a-49c9-b032-143c032661e0,Vagotomie et Antrectomie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.b1d66eac-7de1-4264-974e-28f48b194279,Vagotomie Sélective et Pyloroplastie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
@@ -96,5 +282,6 @@ init.72fda838-1017-494e-b447-735da261dd97,"Vagotomie, Dérivation",product.categ
 init.772588da-bc8a-4e9a-8695-b84155a2c8c5,"Vagotomie, Pyloroplastie",product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.3fe50f8b-d97f-4834-8ad6-206753c984c7,Varices - Stripping,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.7eb72443-4679-4df2-8078-1e15b5c594f8,Vidéolaparoscopie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.831721f1-be87-4442-895c-3f7144a71294,Voie veineuse centrale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.4fc9f2f7-f2df-4f90-b18e-9dccd37f82c3,Volvulis Sigmoïde Laparotomie avec resection,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.84bf1003-2f6d-41f5-b8ca-df75c4b1b5f9,Volvulis Sigmoïde Laparotomie sans resection,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
