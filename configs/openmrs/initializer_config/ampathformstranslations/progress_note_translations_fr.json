@@ -1,0 +1,12 @@
+{
+  "uuid": "534069d9-8a3e-438c-9dfc-1e29bbc5928a",
+  "description": "Progress Note",
+  "form": "Progress Note",
+  "form_name_translation": "Note de suivi",
+  "language": "fr",
+  "translations": {
+      "Progress Note": "Note de suivi",
+      "Notes": "Notes"
+
+  }
+}
