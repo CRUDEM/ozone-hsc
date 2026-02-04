@@ -1,0 +1,6 @@
+{
+  "frontendModules": {
+    "@openmrs/esm-active-visits-app": "8.3.0"
+  },
+  "__comment": "Ozone HSC Overrides"
+}
