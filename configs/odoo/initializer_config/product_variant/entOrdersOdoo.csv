@@ -19,7 +19,6 @@ init.f7004b3a-2f3f-40c2-9203-fa8d24b4783b,Hémi-Maxillectomie,product.categ_serv
 init.447cd68e-fd33-407d-ac5c-24c81b992816,Incision Phlegmon Péri-Amygdalien,product.categ_services_ent_orders,service,FALSE,TRUE,Ordered quantities
 init.dd0f49ca-8001-4c72-b211-e355be8d7a8b,Laryngectomie sub-totale,product.categ_services_ent_orders,service,FALSE,TRUE,Ordered quantities
 init.f81e2d32-3b72-49aa-a199-19602d1588a7,Laryngectomie totale,product.categ_services_ent_orders,service,FALSE,TRUE,Ordered quantities
-init.d3543e8f-1561-43be-9f96-2b1bed0d83fe,Laryngoscopie,product.categ_services_ent_orders,service,FALSE,TRUE,Ordered quantities
 init.dfa04c22-bf42-4e63-9878-424af28faf1c,Ligature carotide externe,product.categ_services_ent_orders,service,FALSE,TRUE,Ordered quantities
 init.b8506576-7359-4adf-96f0-e5400b5087a2,Réparation Plaie de face (petite étendue),product.categ_services_ent_orders,service,FALSE,TRUE,Ordered quantities
 init.777485b9-9bc5-4b84-a575-2cb08a074328,Réparation Plaie de face (grande étendue),product.categ_services_ent_orders,service,FALSE,TRUE,Ordered quantities
