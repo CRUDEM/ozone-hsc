@@ -1,0 +1,35 @@
+{
+  "name": "Progress Note",
+  "pages": [
+    {
+      "label": "Progress Note",
+      "sections": [
+        {
+          "label": "Progress Note",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "required": false,
+              "id": "progressNote",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "209d9a6a-6800-4240-817e-7d1eedb263c4"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounter": "Progress Note",
+  "encounterType": "cc5f948d-55bb-4399-8649-2dbb8bd1f3f4",
+  "referencedForms": [],
+  "uuid": "6c0edf25-f9f5-438f-b6c2-620d263c46bb",
+  "description": "Progress Note",
+  "version": "1",
+  "published": true,
+  "retired": false
+}
