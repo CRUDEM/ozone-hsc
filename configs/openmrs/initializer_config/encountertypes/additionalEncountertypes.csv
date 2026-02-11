@@ -1,6 +1,7 @@
 Uuid,Void/Retire,Name,display:en,display:fr,Description,View privilege,Edit privilege,_order:1000
 061ab9e1-5ca4-4007-ae77-27ac9eadfa51,,Consultation prénatale,Consultation prénatale,Consultation prénatale,,View Consultation prénatale encounters,Edit Consultation prénatale encounters,
 ad368054-1610-4377-8785-2885757f763e,,Motif de consultation,Motif de consultation,Motif de consultation,,View Motif de consultation encounters,Edit Motif de consultation encounters,
+cc5f948d-55bb-4399-8649-2dbb8bd1f3f4,,Progress Note,Progress Note,Note d'avancement,,View Progress Note encounters,Edit Progress Note encounters,
 55fd6104-58a2-46d9-9996-17b5d5138a21,,Examen gynécologique,Examen gynécologique,Examen gynécologique,,View Examen gynécologique encounters,View Examen obstétrical encounters,
 648adf26-bb2f-4b73-bc7a-466437d558b3,,Examen obstétrical,Examen obstétrical,Examen obstétrical,,View Examen obstétrical encounters,Edit Examen obstétrical encounters,
 5238458f-1505-44c6-9be9-bfcd4e9991ca,,Historique de santé,Historique de santé,Historique de santé,,View Historique de santé encounters,Edit Historique de santé encounters,
