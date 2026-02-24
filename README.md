@@ -28,6 +28,38 @@
 ## Release Notes
 
 <details>
+  <summary><b>Version 2.3.0</b></summary>
+   <ul>
+    <li>Depends on:
+     <ul>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#release-notes">Ozone Haiti 1.1.0</a></li>
+     </ul>
+    </li>
+   </ul>
+
+   <b>Specific notes</b>
+
+   <ul>
+    <li>Updated 'Anamnesis (ER)' data type to 'Text'.</li>
+    <li>Replaced 'General condition / Nutritional status' field with Physical examination.</li>
+    <li>Made reason for consultation mandatory, duration and time units optional.</li>
+    <li>Added blood sugar level in vitals and biometrics form.</li>
+    <li>Added translations for 'Emergency' form.</li>
+    <li>Updated emergency form encounter and indentation.</li>
+    <li>Added 'BAAF' and 'Biopsy' to procedure orders.</li>
+    <li>Updated 'Tetanus' and 'Emergency' form name translations.</li>
+    <li>Display life sytle choices in the life style widget.</li>
+    <li>Added 'Blood Requisition' to procedure orders.</li>
+    <li>Upgraded esm-active-visits-app to v8.3.0.</li>
+    <li>Override analytics queries properly.</li>
+    <li>Added procedure orders in O3 and services in Odoo.</li>
+    <li>Added 'Progress Note' form.</li>
+    <li>Updated translation for 'Desinvagination'.</li>
+    </ul>
+</details>
+
+<details>
   <summary><b>Version 2.2.1</b></summary>
    <ul>
     <li>Depends on:
