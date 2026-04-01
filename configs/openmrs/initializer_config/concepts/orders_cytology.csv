@@ -1,0 +1,6 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:km,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
+22b626d0-5d7a-4535-b735-fd5d77865831,,,Cervicovaginal cytology / Pap smear,"Cytologie cervico-vaginale / pap'smear",Cervicovaginal cytology / Pap smear,"Cytologie cervico-vaginale / pap'smear",,,Procedure,Text,,,,,,,,,,,
+05fa3d3f-1eea-44a9-aee6-2ede52a9909b,,,Cervical / vaginal cytology,Cytologie col / vagin,Cervical / vaginal cytology,Cytologie col / vagin,,,Procedure,Text,,,,,,,,,,,
+7710feaf-5815-4dd8-9a6a-03a33d43749f,,,Breast / sputum / bronchial cytology,Cytologie sein / crachat / bronche,Breast / sputum / bronchial cytology,Cytologie sein / crachat / bronche,,,Procedure,Text,,,,,,,,,,,
+16fe3a66-0b51-46be-9122-950d3fe2604c,,,Pleural fluid / ascitic fluid cytology,"Cytologie liquide pleural / d'ascite",Pleural fluid / ascitic fluid cytology,"Cytologie liquide pleural / d'ascite",,,Procedure,Text,,,,,,,,,,,
+40ede0e1-9381-442a-8694-bce0492b1729,,,"Fluid and other cytology + cell block","Liquide et autre cytologie + bloc cell","Fluid and other cytology + cell block","Liquide et autre cytologie + bloc cell",,,Procedure,Text,,,,,,,,,,,

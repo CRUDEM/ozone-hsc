@@ -1,0 +1,5 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:km,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
+ce1eeb6b-700e-4a80-909d-ff85329305b7,,,Small biopsy,Petite biopsie,Small biopsy,Petite biopsie,,,Procedure,Text,,,,,,,,,,,
+fb066542-94cd-4392-a1f4-152bcf48ab49,,,Small surgical specimens (biopsy),Petites pièces opératoires (Biopsie),Small surgical specimens (biopsy),Petites pièces opératoires (Biopsie),,,Procedure,Text,,,,,,,,,,,
+7264dce2-5d6b-4444-b5e1-dc8bbf603f58,,,Organs (biopsy),Organes (Biopsie),Organs (biopsy),Organes (Biopsie),,,Procedure,Text,,,,,,,,,,,
+0f768aee-0a7b-4dfa-a60f-57abefb15047,,,Tumor and extensive surgery / dysplasia and cancer,Chirurgie tumorale et extensive / dysplasie et cancer,Tumor and extensive surgery / dysplasia and cancer,Chirurgie tumorale et extensive / dysplasie et cancer,,,Procedure,Text,,,,,,,,,,,

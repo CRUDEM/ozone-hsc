@@ -20,3 +20,5 @@ product.categ_services_exoneration_orders,Exoneration,,Manual,Standard Price,ini
 product.categ_services_insurance_orders,Insurance,,Manual,Standard Price,init.1_conf_a_sale,init.1_conf_cog
 product.categ_services_dental_orders,Dental,,Manual,Standard Price,init.1_conf_a_sale,init.1_conf_cog
 product.categ_services_consultation_orders,Consultation,,Manual,Standard Price,init.1_conf_a_sale,init.1_conf_cog
+product.categ_services_cytology_orders,Cytology,,Manual,Standard Price,init.1_conf_a_sale,init.1_conf_cog
+product.categ_services_biopsy_orders,Biopsy,,Manual,Standard Price,init.1_conf_a_sale,init.1_conf_cog
