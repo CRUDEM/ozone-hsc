@@ -1,0 +1,5 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.ce1eeb6b-700e-4a80-909d-ff85329305b7,Petite biopsie,product.categ_services_biopsy_orders,service,FALSE,TRUE,Ordered quantities
+init.fb066542-94cd-4392-a1f4-152bcf48ab49,Petites pièces opératoires (Biopsie),product.categ_services_biopsy_orders,service,FALSE,TRUE,Ordered quantities
+init.7264dce2-5d6b-4444-b5e1-dc8bbf603f58,Organes (Biopsie),product.categ_services_biopsy_orders,service,FALSE,TRUE,Ordered quantities
+init.0f768aee-0a7b-4dfa-a60f-57abefb15047,Chirurgie tumorale et extensive / dysplasie et cancer,product.categ_services_biopsy_orders,service,FALSE,TRUE,Ordered quantities

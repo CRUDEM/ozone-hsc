@@ -1,0 +1,6 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.22b626d0-5d7a-4535-b735-fd5d77865831,"Cytologie cervico-vaginale / pap'smear",product.categ_services_cytology_orders,service,FALSE,TRUE,Ordered quantities
+init.05fa3d3f-1eea-44a9-aee6-2ede52a9909b,Cytologie col / vagin,product.categ_services_cytology_orders,service,FALSE,TRUE,Ordered quantities
+init.7710feaf-5815-4dd8-9a6a-03a33d43749f,Cytologie sein / crachat / bronche,product.categ_services_cytology_orders,service,FALSE,TRUE,Ordered quantities
+init.16fe3a66-0b51-46be-9122-950d3fe2604c,"Cytologie liquide pleural / d'ascite",product.categ_services_cytology_orders,service,FALSE,TRUE,Ordered quantities
+init.40ede0e1-9381-442a-8694-bce0492b1729,"Liquide et autre cytologie + bloc cell",product.categ_services_cytology_orders,service,FALSE,TRUE,Ordered quantities

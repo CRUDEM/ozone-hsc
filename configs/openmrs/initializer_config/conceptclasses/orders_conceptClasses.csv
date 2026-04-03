@@ -2,6 +2,8 @@ Uuid,Void/Retire,Name,Description
 fb6e9000-d7fa-4aa6-8c39-4935d7a36e45,,Obstetrics and Gynecology,Obstetrics and Gynecology orders
 0502d529-4e7d-4292-8c9f-68ccf7b93edb,,Ophtalmology,Ophtalmology Orders
 c58e05ec-a7c7-4cb9-9050-e2f8d7d2c506,,Surgery,Surgery orders
+581d6184-c9f9-45b3-bc52-ac5bfb172b3a,,Cytology,Cytology orders
+016f6a77-28a9-4388-bb8b-dc9157d590dd,,Biopsy,Biopsy orders
 1fe6e639-d434-4e2a-bcb3-b09733e20ab1,,Urology,Urology orders
 0d6f87dd-3773-42f2-affd-b143ecea00dc,,Wound Dressing,Wound Dressing orders
 b5c7ee53-5933-47ca-8f86-855a6e5fa0ed,,Wound,Wound orders
