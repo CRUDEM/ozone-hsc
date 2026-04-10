@@ -28,6 +28,24 @@
 ## Release Notes
 
 <details>
+  <summary><b>Version 2.3.2</b></summary>
+   <ul>
+    <li>Depends on:
+     <ul>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#release-notes">Ozone Haiti 1.1.0</a></li>
+     </ul>
+    </li>
+   </ul>
+
+   <b>Specific notes</b>
+
+   <ul>
+    <li>Added procedure orders in O3 and services in Odoo.</li>
+    </ul>
+</details>
+
+<details>
   <summary><b>Version 2.3.1</b></summary>
    <ul>
     <li>Depends on:
@@ -41,7 +59,7 @@
    <b>Specific notes</b>
 
    <ul>
-    <li>Add frontend modules in spa-assemble-config.json.</li>
+    <li>Added frontend modules in spa-assemble-config.json.</li>
     </ul>
 </details>
 
