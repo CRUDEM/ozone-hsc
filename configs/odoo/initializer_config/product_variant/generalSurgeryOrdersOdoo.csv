@@ -141,7 +141,6 @@ init.1aa4eede-e4a2-4709-9d65-56447eb2efa5,Herniorraphie incisionnelle rachi,prod
 init.ac9b6d73-535e-48ea-a1fa-8d1f7d1f104d,Herniorraphie incisionnelle sédation / générale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.8855e99d-410a-4c0f-be8e-7079810f4c79,Herniorraphie inguinale bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.22cfbc93-7254-4492-82c0-db433a517ca2,Herniorraphie inguinale unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
-init.4165aaf0-8d79-4d31-aa39-e1195bb13bbb,Herniorraphie ombilicale étranglée,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.cef9522d-012b-4e09-b2cf-be19cb74f3f3,Herniotomie bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.ea169a1f-c593-4b4e-b498-f93455f4eaa3,Herniotomie unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.8f320833-becc-49a1-b02e-584d8001e41f,Hernorraphie ombilicale rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
