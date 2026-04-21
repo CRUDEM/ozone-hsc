@@ -6,6 +6,8 @@
     "@openmrs/esm-ward-app": "8.3.1-pre.4891",
     "@openmrs/esm-bed-management-app": "8.3.1-pre.4891",
     "@openmrs/esm-patient-chart-app": "9.2.1-pre.6905",
+    "@react-aria/utils": "3.33.1",
+    "@react-aria/datepicker": "3.17.0",
     "@openmrs/esm-patient-orders-app": "9.2.1-pre.6905",
     "@openmrs/esm-patient-tests-app": "9.2.1-pre.6905",
     "@openmrs/esm-patient-medications-app": "9.2.3-pre.7115",
