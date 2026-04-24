@@ -191,6 +191,28 @@
                             </resources>
                         </configuration>
                     </execution>
+                    <!-- Override OpenMRS frontend build Groovy script -->
+                    <execution>
+                        <id>Override OpenMRS frontend build Groovy script</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}</outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/scripts</directory>
+                                    <includes>
+                                        <include>
+                                            openmrs/frontend_assembly/build-openmrs-frontend.groovy
+                                        </include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
                     <execution>
                         <!-- Copy Monitoring Binary Resources -->
                         <id>Copy Monitoring Resources </id>
