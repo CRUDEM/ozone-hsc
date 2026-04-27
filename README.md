@@ -42,6 +42,7 @@
 
    <ul>
     <li>Added procedure orders in O3 and services in Odoo.</li>
+    <li>Override OpenMRS frontend build Groovy script.</li>
     </ul>
 </details>
 
