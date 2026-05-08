@@ -15,8 +15,6 @@ init.5ced2a7b-42c2-4478-9e80-d5eab3f11e0c,Epididymectomie Bilatérale,product.ca
 init.25ce7a5d-6dc7-4bd2-a12a-3f39a01c3b14,Epididymectomie Unilatérale,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities
 init.fea19a91-a2ad-471e-b9ca-7869c085b1bc,Exision Kyste du Cordon,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities
 init.e62c8971-735c-4736-b59c-f780078c3ebf,Exploration Urétrale,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities
-init.257affdc-a563-41a7-835b-15f5a5d30166,Hydrocelectomie Bilatérale,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities
-init.db693772-b8eb-4930-8b03-90f69a13ea32,Hydrocelectomie Unilatérale,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities
 init.f93c8dd2-792c-46d0-9198-c9c3a2b0026a,Kystectomie Renale,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities
 init.3f2fc969-3f84-4133-a2fb-7300df1b543c,Orchidopexie,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities
 init.2a2840a7-59d1-448f-a7f3-be0f5fb5ee2f,Orchiectomie Bilatérale,product.categ_services_urology_orders,service,FALSE,TRUE,Ordered quantities

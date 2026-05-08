@@ -145,8 +145,8 @@ init.cef9522d-012b-4e09-b2cf-be19cb74f3f3,Herniotomie bilaterale,product.categ_s
 init.ea169a1f-c593-4b4e-b498-f93455f4eaa3,Herniotomie unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.8f320833-becc-49a1-b02e-584d8001e41f,Hernorraphie ombilicale rachi,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.9732c0da-2708-4dc3-8efb-9bddea136cc9,Hernorraphie ombilicale sédation / général,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
-init.5df5f6eb-a679-4afc-ae17-a2fbbe760620,Hydrocelectomie bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
-init.71aeef38-c795-4f1c-94c8-a6229a6f162b,Hydrocelectomie unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.257affdc-a563-41a7-835b-15f5a5d30166,Hydrocelectomie bilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
+init.db693772-b8eb-4930-8b03-90f69a13ea32,Hydrocelectomie unilaterale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.4f9570da-5ed1-4ff7-956c-357c63ff379a,Hemorroides,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.ba0e6fb2-8ed1-4329-826f-09cbf9eff59f,Hepatorraphie,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
 init.e91eb72a-5190-4818-8a93-c8f8d8fb429c,Hernioraphie ombilicale,product.categ_services_general_surgery_orders,service,FALSE,TRUE,Ordered quantities
