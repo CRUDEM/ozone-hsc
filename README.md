@@ -28,6 +28,24 @@
 ## Release Notes
 
 <details>
+  <summary><b>Version 2.3.3</b></summary>
+   <ul>
+    <li>Depends on:
+     <ul>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#release-notes">Ozone Haiti 1.1.0</a></li>
+     </ul>
+    </li>
+   </ul>
+
+   <b>Specific notes</b>
+
+   <ul>
+    <li>Removed duplicate concepts for 'Hydrocelectomie Bilatérale' and 'Hydrocelectomie Unilatérale'.</li>
+    </ul>
+</details>
+
+<details>
   <summary><b>Version 2.3.2</b></summary>
    <ul>
     <li>Depends on:
