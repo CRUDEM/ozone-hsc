@@ -1,4 +1,4 @@
-Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1300
 481db8b9-629a-4b19-a111-ba9333bed0e8,,,Red,Rouge,Red,Rouge,,,Misc,N/A,,,,,,,,,,,
 f9fc5cf6-b50c-4156-a07e-73d117b87002,,,Green,Vert,Green,Vert,,,Misc,N/A,,,,,,,,,,,
 769682a9-6978-4789-8689-a628536e4133,,,Yellow,Jaune,Yellow,Jaune,,,Misc,N/A,,,,,,,,,,,
@@ -15,8 +15,9 @@ baba227f-2425-4e2a-beff-1cb81a9c09ff,,,Verb,Verbe,Verb,Verbe,,,Misc,Numeric,,,,,
 32e67d1d-33c8-436c-8184-cb642641740f,,,Engine,Moteur,Engine,Moteur,,,Misc,Numeric,,,,,,,,,,,
 f83ffc3a-2cca-4ffc-aab7-416330a18c95,,,Glasgow Scale,Échelle de Glasgow,Fetus Glasgow Scale,Échelle de Glasgow,,,ConvSet,N/A,,,Eyes;Verb;Engine,,,,,,,,
 5c6c4d43-5fb4-4d91-95a9-56c4948cf40a,,,Dyspneic,Dyspnéique,Dyspneic,Dyspnéique,,,Misc,N/A,,,,,,,,,,,
-348f1302-6ca8-45af-b23e-db9dc0980914,,,Breathing Assessment,Évaluation de la respiration,Breathing Assessment,Évaluation de la respiration,,,Question,Coded,,Normal;Dyspneic;Respiratory Distress;Other,,,,,,,,,
-9bbae48a-924a-40ae-9090-353b2a613422,,,Other Breathing Assessment Details,Other Breathing Assessment Details,Other Breathing Assessment Details,Other Breathing Assessment Details,,,Misc,Text,,,,,,,,,,,
+8db5ab60-24cb-4b93-8ee1-ac27415dee93,,,Respiratory distress,Détresse respiratoire,Respiratory distress,Détresse respiratoire,,,Misc,N/A,,,,,,,,,,,
+348f1302-6ca8-45af-b23e-db9dc0980914,,,Breathing Assessment,Évaluation de la respiration,Breathing Assessment,Évaluation de la respiration,,,Question,Coded,,Normal;Dyspneic;Respiratory distress;Other,,,,,,,,,
+9bbae48a-924a-40ae-9090-353b2a613422,,,Other Breathing Assessment,Autre Évaluation de la respiration,Other Breathing Assessment,Autre Évaluation de la respiration,,,Misc,Text,,,,,,,,,,,
 a21aa582-bb23-4cd8-8fb7-410d88694908,,,Clinical Observation,Observation Clinique,Clinical Observation,Observation Clinique,,,Misc,Text,,,,,,,,,,,
 76799fc6-ee55-49c2-93de-a070188b35fb,,,Examinations requested,Examens demandés,Examinations requested,Examens demandés,,,Misc,Text,,,,,,,,,,,
 24155ce4-9361-4497-ab71-338a2467886c,,,Evolution,Evolution,Evolution,Evolution,,,Misc,Text,,,,,,,,,,,

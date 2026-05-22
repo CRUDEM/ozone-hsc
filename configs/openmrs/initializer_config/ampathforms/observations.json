@@ -86,7 +86,7 @@
               "required": false,
               "id": "glasgowScale",
               "questionOptions": {
-                "rendering": "repeating",
+                "rendering": "group",
                 "concept": "f83ffc3a-2cca-4ffc-aab7-416330a18c95"
               },
               "questions": [
@@ -127,6 +127,66 @@
                   "validators": []
                 }
               ],
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "solute",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c6b5592e-210e-4a87-8f17-b5b751adc321",
+                "answers": [
+                  {
+                    "concept": "0d6a6079-46af-43ed-80eb-cf89caf9ce9a"
+                  },
+                  {
+                    "concept": "8c4302b2-fcc5-451f-8ff2-ad91fe5e41d5"
+                  },
+                  {
+                    "concept": "b8cadca9-9eb0-4b0e-ae68-ca4dae824876"
+                  },
+                  {
+                    "concept": "d0ed6c2f-9b30-40b6-b240-19c4daf2be5c"
+                  },
+                  {
+                    "concept": "07fce3da-7c1f-46f7-b198-f24a41a07c79"
+                  },
+                  {
+                    "concept": "cd504718-879f-45f5-963c-c95d8fc8b466"
+                  },
+                  {
+                    "concept": "ae739dc0-0680-4b42-8484-b1004a0dabd1"
+                  },
+                  {
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(solute) ||  solute !== '26c0366b-83e4-4401-9699-e545219b8870'"
+              },
+              "type": "obs",
+              "required": false,
+              "id": "otherSolute",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ae2673bd-e822-4ebf-a64b-0588f3274e6c"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "flowRate",
+              "questionOptions": {
+                    "rendering": "number",
+                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60",
+                    "disallowDecimals": false
+              },
               "validators": []
             },
             {
@@ -209,7 +269,7 @@
                 "concept": "43f4c894-cf84-4d9c-9aa1-a5e9fdd1f10c",
                 "answers": [
                   {
-                    "concept": "cd86be63-7829-4d0f-b26f-7803136a0937"
+                    "concept": "70f0f39c-9a43-4902-9f56-d7f8007f5c6c"
                   },
                   {
                     "concept": "5d4ec251-b391-49e8-8e6f-2741b1059a5b"

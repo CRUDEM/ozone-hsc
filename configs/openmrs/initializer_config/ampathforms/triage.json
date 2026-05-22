@@ -67,7 +67,7 @@
               "required": false,
               "id": "glasgowScale",
               "questionOptions": {
-                "rendering": "repeating",
+                "rendering": "group",
                 "concept": "f83ffc3a-2cca-4ffc-aab7-416330a18c95"
               },
               "questions": [
@@ -125,7 +125,7 @@
                     "concept": "5c6c4d43-5fb4-4d91-95a9-56c4948cf40a"
                   },
                   {
-                    "concept": "127639AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    "concept": "8db5ab60-24cb-4b93-8ee1-ac27415dee93"
                   },
                   {
                     "concept": "26c0366b-83e4-4401-9699-e545219b8870"

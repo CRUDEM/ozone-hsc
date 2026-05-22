@@ -5,6 +5,7 @@
   "form_name_translation": "Observations",
   "language": "fr",
   "translations": {
-
+     "Débit": "Débit (ml/h)",
+     "Nurse's Observations": "Observations de l’infirmière"
   }
 }
