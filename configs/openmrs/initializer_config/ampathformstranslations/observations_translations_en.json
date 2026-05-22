@@ -6,6 +6,11 @@
   "language": "en",
   "translations": {
      "Flow rate": "Flow rate (ml/h)",
-     "Nurse's Observations": "Nurse's Observations"
+     "Nurse's Observations": "Nurse's Observations",
+     "Eye Opening Response": "Eyes",
+     "Verbal Response": "Verb",
+     "Motor Response": "Engine",
+     "Flow Rate For Soluté": "Flow rate (ml/h)",
+     "Flow Rate For Oxygen Therapy": "Flow rate (L/min)"
   }
 }
