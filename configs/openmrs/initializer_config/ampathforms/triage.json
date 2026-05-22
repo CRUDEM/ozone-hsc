@@ -1,0 +1,230 @@
+{
+  "name": "Triage",
+  "pages": [
+    {
+      "label": "Triage",
+      "sections": [
+        {
+          "label": "Triage",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "required": false,
+              "id": "urgencyLevel",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "fb06cb11-b3c7-4124-af9e-9f3c6b8ebcc6",
+                "answers": [
+                  {
+                    "concept": "481db8b9-629a-4b19-a111-ba9333bed0e8"
+                  },
+                  {
+                    "concept": "f9fc5cf6-b50c-4156-a07e-73d117b87002"
+                  },
+                  {
+                    "concept": "769682a9-6978-4789-8689-a628536e4133"
+                  },
+                  {
+                    "concept": "749e328e-8170-4350-a1c7-ce4cb6dd8b20"
+                  },
+                  {
+                    "concept": "a2fa8ca7-dab5-4e10-a22c-d6a6758159af"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "neurologyAndConsciousnessState",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bd50cb70-106d-413b-ad27-5a011835cbe4",
+                "answers": [
+                  {
+                    "concept": "144b5c46-f11e-4529-a92a-36c50f5e6f3c"
+                  },
+                  {
+                    "concept": "670f2b23-a70c-4f01-b7a1-eb1a9b80bd93"
+                  },
+                  {
+                    "concept": "a9bc8e3b-6e09-4ea1-a340-2a36cd02785b"
+                  },
+                  {
+                    "concept": "d437840e-166e-4d25-865e-e6ab7b18237c"
+                  },
+                  {
+                    "concept": "f92dc55d-9acf-81fc-8ad8-27457d631bd0"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obsGroup",
+              "required": false,
+              "id": "glasgowScale",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "f83ffc3a-2cca-4ffc-aab7-416330a18c95"
+              },
+              "questions": [
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "eye",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "step": 1,
+                    "concept": "d3042bc4-911f-4a22-8e85-f5858858b6a7",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "verb",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "step": 1,
+                    "concept": "baba227f-2425-4e2a-beff-1cb81a9c09ff",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "engine",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "step": 1,
+                    "concept": "32e67d1d-33c8-436c-8184-cb642641740f",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "breathingAssessment",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "348f1302-6ca8-45af-b23e-db9dc0980914",
+                "answers": [
+                  {
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
+                  },
+                  {
+                    "concept": "5c6c4d43-5fb4-4d91-95a9-56c4948cf40a"
+                  },
+                  {
+                    "concept": "8db5ab60-24cb-4b93-8ee1-ac27415dee93"
+                  },
+                  {
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(breathingAssessment) ||  breathingAssessment !== '26c0366b-83e4-4401-9699-e545219b8870'"
+              },
+              "type": "obs",
+              "required": false,
+              "id": "otherBreathingAssessmentDetails",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "9bbae48a-924a-40ae-9090-353b2a613422"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "clinicalObservation",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a21aa582-bb23-4cd8-8fb7-410d88694908"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "examinationsRequested",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "76799fc6-ee55-49c2-93de-a070188b35fb"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "evolution",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "24155ce4-9361-4497-ab71-338a2467886c"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "releaseOrOrientation",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "3358bc61-09fd-4b0e-9bc9-6a894302a297",
+                "answers": [
+                  {
+                    "concept": "df9cc02b-b427-4262-b30a-7b973aef23fc"
+                  },
+                  {
+                    "concept": "faaa3af8-e678-42de-8f37-b50a784b73d5"
+                  },
+                  {
+                    "concept": "e8d5651f-42e6-4558-bad2-416d69d979cf"
+                  },
+                  {
+                    "concept": "438fa424-92f9-4e4b-bcff-fa0b46e51c8f"
+                  },
+                  {
+                    "concept": "2913bb79-8bf5-41e3-b11f-9e1633a0bce5"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "orientationNote",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e112e383-3d49-4b20-bda5-3507d0f01363"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "1937ac41-a3f7-4f87-9c5d-3ec7cff5296f",
+  "encounter": "Triage",
+  "referencedForms": [],
+  "uuid": "c76e90a6-1004-43c8-a4ce-db9f7aabc29c",
+  "description": "Triage",
+  "version": "1",
+  "published": true,
+  "retired": false
+}

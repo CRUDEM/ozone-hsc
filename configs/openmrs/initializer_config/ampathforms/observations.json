@@ -1,0 +1,362 @@
+{
+  "name": "Observations",
+  "pages": [
+    {
+      "label": "Observations",
+      "sections": [
+        {
+          "label": "Nurse's Observations",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "required": false,
+              "id": "positioningAndMobility",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d038fd84-e92e-497b-ac2a-fadeb48d0af6",
+                "answers": [
+                  {
+                    "concept": "0b724cbd-d80c-48f4-925b-598221f90eae"
+                  },
+                  {
+                    "concept": "68247ee1-b91f-4bb5-bb2c-738d76904131"
+                  },
+                  {
+                    "concept": "9edffbb9-58c9-426f-ba34-c9016cf7e9ff"
+                  },
+                  {
+                    "concept": "5f74b1fc-d11c-4ac9-bc76-15cbc930006a"
+                  },
+                  {
+                    "concept": "2fcb990b-9cf8-4a11-84f2-8a8bd9da07e6"
+                  },
+                  {
+                    "concept": "bd13ef55-9741-4885-b6af-402fc88c542d"
+                  },
+                  {
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(positioningAndMobility) ||  positioningAndMobility !== '26c0366b-83e4-4401-9699-e545219b8870'"
+              },
+              "type": "obs",
+              "required": false,
+              "id": "otherPositioningAndMobility",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "4651b941-d4a3-4e9c-a5a8-7cb9f24e6544"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "neurologyAndConsciousnessState",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bd50cb70-106d-413b-ad27-5a011835cbe4",
+                "answers": [
+                  {
+                    "concept": "144b5c46-f11e-4529-a92a-36c50f5e6f3c"
+                  },
+                  {
+                    "concept": "670f2b23-a70c-4f01-b7a1-eb1a9b80bd93"
+                  },
+                  {
+                    "concept": "a9bc8e3b-6e09-4ea1-a340-2a36cd02785b"
+                  },
+                  {
+                    "concept": "d437840e-166e-4d25-865e-e6ab7b18237c"
+                  },
+                  {
+                    "concept": "f92dc55d-9acf-81fc-8ad8-27457d631bd0"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obsGroup",
+              "required": false,
+              "id": "glasgowScale",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "f83ffc3a-2cca-4ffc-aab7-416330a18c95"
+              },
+              "questions": [
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "eye",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "step": 1,
+                    "concept": "d3042bc4-911f-4a22-8e85-f5858858b6a7",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "verb",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "step": 1,
+                    "concept": "baba227f-2425-4e2a-beff-1cb81a9c09ff",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "engine",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "step": 1,
+                    "concept": "32e67d1d-33c8-436c-8184-cb642641740f",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "solute",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c6b5592e-210e-4a87-8f17-b5b751adc321",
+                "answers": [
+                  {
+                    "concept": "0d6a6079-46af-43ed-80eb-cf89caf9ce9a"
+                  },
+                  {
+                    "concept": "8c4302b2-fcc5-451f-8ff2-ad91fe5e41d5"
+                  },
+                  {
+                    "concept": "b8cadca9-9eb0-4b0e-ae68-ca4dae824876"
+                  },
+                  {
+                    "concept": "d0ed6c2f-9b30-40b6-b240-19c4daf2be5c"
+                  },
+                  {
+                    "concept": "07fce3da-7c1f-46f7-b198-f24a41a07c79"
+                  },
+                  {
+                    "concept": "cd504718-879f-45f5-963c-c95d8fc8b466"
+                  },
+                  {
+                    "concept": "ae739dc0-0680-4b42-8484-b1004a0dabd1"
+                  },
+                  {
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(solute) ||  solute !== '26c0366b-83e4-4401-9699-e545219b8870'"
+              },
+              "type": "obs",
+              "required": false,
+              "id": "otherSolute",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ae2673bd-e822-4ebf-a64b-0588f3274e6c"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "flowRate",
+              "questionOptions": {
+                    "rendering": "number",
+                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60",
+                    "disallowDecimals": false
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "tng",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "889b0cc0-130c-4ab6-8636-687da58d567f",
+                "answers": [
+                  {
+                    "concept": "4f3cc7ef-e8cf-4589-806e-598ad37056c2"
+                  },
+                  {
+                    "concept": "06dd849c-ca72-4f9c-a536-dcdd9bb3ac3d"
+                  },
+                  {
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(tng) ||  tng !== '26c0366b-83e4-4401-9699-e545219b8870'"
+              },
+              "type": "obs",
+              "required": false,
+              "id": "otherTNG",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1a33a256-b387-4ed2-9e4f-c5eff7f6e09d"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "diuresis",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c1ba03e1-db7d-48a5-b8bf-1730a7713701",
+                "answers": [
+                  {
+                    "concept": "85959e08-898d-4cdb-be7a-534c73ceb00d"
+                  },
+                  {
+                    "concept": "93bc228e-f458-43aa-9c89-745bef929a74"
+                  },
+                  {
+                    "concept": "ff5e520f-bba3-490b-99f9-44fe98ab4792"
+                  },
+                  {
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(diuresis) ||  diuresis !== '26c0366b-83e4-4401-9699-e545219b8870'"
+              },
+              "type": "obs",
+              "required": false,
+              "id": "otherDiuresis",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "df7acb48-faad-4a66-a4f8-03a46a95850c"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "oxygenTherapy",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "43f4c894-cf84-4d9c-9aa1-a5e9fdd1f10c",
+                "answers": [
+                  {
+                    "concept": "70f0f39c-9a43-4902-9f56-d7f8007f5c6c"
+                  },
+                  {
+                    "concept": "5d4ec251-b391-49e8-8e6f-2741b1059a5b"
+                  },
+                  {
+                    "concept": "c41717be-5164-489a-9caf-7a36e7bd2f92"
+                  },
+                  {
+                    "concept": "a16a306c-41f2-4250-bf1a-49fda3b1e318"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "flowRate",
+              "questionOptions": {
+                    "rendering": "number",
+                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60",
+                    "disallowDecimals": false
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "nebulization",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "52d8117e-9292-4258-af5d-a9b4b922788d"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "bandage",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a19cd5a2-9269-41f3-b7ec-26abd5aee884"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "drain",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "32316550-5100-4d12-8dd3-a98fd6b89ed0"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "excretaAssessment",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c3ca24f7-fa0c-4f41-9ae9-689ca050cacc"
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "complaint",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "5267d54f-f688-4949-86a9-21550f833e44"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "b9e37c64-3d84-4aa5-a6f2-27370821e9af",
+  "encounter": "Observations",
+  "referencedForms": [],
+  "uuid": "e142ef34-acaf-40e3-b751-1c843f94217b",
+  "description": "Observations",
+  "version": "1",
+  "published": true,
+  "retired": false
+}

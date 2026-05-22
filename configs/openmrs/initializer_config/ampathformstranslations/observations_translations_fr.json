@@ -1,0 +1,11 @@
+{
+  "uuid": "977f94e6-57fd-4df6-be6a-da41599b975b",
+  "description": "Observations de l’infirmière",
+  "form": "Observations",
+  "form_name_translation": "Observations",
+  "language": "fr",
+  "translations": {
+     "Débit": "Débit (ml/h)",
+     "Nurse's Observations": "Observations de l’infirmière"
+  }
+}
