@@ -5,6 +5,9 @@
   "form_name_translation": "Triage",
   "language": "en",
   "translations": {
-
+     "Eye Opening Response": "Eyes",
+     "Verbal Response": "Verb",
+     "Motor Response": "Engine",
+     "Other Breathing Assessment Details": "Others"
   }
 }

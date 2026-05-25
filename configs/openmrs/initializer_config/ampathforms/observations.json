@@ -108,7 +108,6 @@
                   "id": "verb",
                   "questionOptions": {
                     "rendering": "number",
-                    "step": 1,
                     "concept": "baba227f-2425-4e2a-beff-1cb81a9c09ff",
                     "disallowDecimals": true
                   },
@@ -120,7 +119,6 @@
                   "id": "engine",
                   "questionOptions": {
                     "rendering": "number",
-                    "step": 1,
                     "concept": "32e67d1d-33c8-436c-8184-cb642641740f",
                     "disallowDecimals": true
                   },
@@ -181,11 +179,10 @@
             {
               "type": "obs",
               "required": false,
-              "id": "flowRate",
+              "id": "soluteFlowRate",
               "questionOptions": {
                     "rendering": "number",
-                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60",
-                    "disallowDecimals": false
+                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60"
               },
               "validators": []
             },
@@ -202,21 +199,15 @@
                   },
                   {
                     "concept": "06dd849c-ca72-4f9c-a536-dcdd9bb3ac3d"
-                  },
-                  {
-                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "hide": {
-                "hideWhenExpression": "isEmpty(tng) ||  tng !== '26c0366b-83e4-4401-9699-e545219b8870'"
-              },
               "type": "obs",
               "required": false,
-              "id": "otherTNG",
+              "id": "tngDetails",
               "questionOptions": {
                 "rendering": "textarea",
                 "concept": "1a33a256-b387-4ed2-9e4f-c5eff7f6e09d"
@@ -287,11 +278,10 @@
             {
               "type": "obs",
               "required": false,
-              "id": "flowRate",
+              "id": "oxygenTherapyFlowRate",
               "questionOptions": {
                     "rendering": "number",
-                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60",
-                    "disallowDecimals": false
+                    "concept": "5967f13b-dd0b-4ad7-a0cd-f684a7544162"
               },
               "validators": []
             },
@@ -311,7 +301,7 @@
               "id": "bandage",
               "questionOptions": {
                 "rendering": "textarea",
-                "concept": "a19cd5a2-9269-41f3-b7ec-26abd5aee884"
+                "concept": "1549cd2c-d2df-4cd6-81a7-24d077cfa4e9"
               },
               "validators": []
             },

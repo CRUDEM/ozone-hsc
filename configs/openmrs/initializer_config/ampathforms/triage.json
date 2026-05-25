@@ -77,7 +77,6 @@
                   "id": "eye",
                   "questionOptions": {
                     "rendering": "number",
-                    "step": 1,
                     "concept": "d3042bc4-911f-4a22-8e85-f5858858b6a7",
                     "disallowDecimals": true
                   },
@@ -89,7 +88,6 @@
                   "id": "verb",
                   "questionOptions": {
                     "rendering": "number",
-                    "step": 1,
                     "concept": "baba227f-2425-4e2a-beff-1cb81a9c09ff",
                     "disallowDecimals": true
                   },
@@ -101,7 +99,6 @@
                   "id": "engine",
                   "questionOptions": {
                     "rendering": "number",
-                    "step": 1,
                     "concept": "32e67d1d-33c8-436c-8184-cb642641740f",
                     "disallowDecimals": true
                   },
@@ -126,18 +123,12 @@
                   },
                   {
                     "concept": "8db5ab60-24cb-4b93-8ee1-ac27415dee93"
-                  },
-                  {
-                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "hide": {
-                "hideWhenExpression": "isEmpty(breathingAssessment) ||  breathingAssessment !== '26c0366b-83e4-4401-9699-e545219b8870'"
-              },
               "type": "obs",
               "required": false,
               "id": "otherBreathingAssessmentDetails",

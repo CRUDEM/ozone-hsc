@@ -5,7 +5,11 @@
   "form_name_translation": "Observations",
   "language": "fr",
   "translations": {
-     "Débit": "Débit (ml/h)",
-     "Nurse's Observations": "Observations de l’infirmière"
+     "Nurse's Observations": "Observations de l’infirmière",
+     "Eye Opening Response": "Yeux",
+     "Verbal Response": "Verbe",
+     "Motor Response": "Moteur",
+     "Flow Rate For Soluté": "Débit (ml/h)",
+     "Flow Rate For Oxygen Therapy": "Débit (L/min)"
   }
 }
