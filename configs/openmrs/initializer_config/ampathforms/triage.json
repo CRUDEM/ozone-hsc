@@ -74,9 +74,10 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "eye",
+                  "id": "eyeResponse",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "d3042bc4-911f-4a22-8e85-f5858858b6a7",
                     "disallowDecimals": true
                   },
@@ -85,9 +86,10 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "verb",
+                  "id": "verbResponse",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "baba227f-2425-4e2a-beff-1cb81a9c09ff",
                     "disallowDecimals": true
                   },
@@ -96,9 +98,10 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "engine",
+                  "id": "engineResponse",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "32e67d1d-33c8-436c-8184-cb642641740f",
                     "disallowDecimals": true
                   },

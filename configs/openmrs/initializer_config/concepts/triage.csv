@@ -17,7 +17,7 @@ f83ffc3a-2cca-4ffc-aab7-416330a18c95,,,Glasgow Scale,Échelle de Glasgow,Fetus G
 5c6c4d43-5fb4-4d91-95a9-56c4948cf40a,,,Dyspneic,Dyspnéique,Dyspneic,Dyspnéique,,,Misc,N/A,,,,,,,,,,,
 8db5ab60-24cb-4b93-8ee1-ac27415dee93,,,Respiratory distress,Détresse respiratoire,Respiratory distress,Détresse respiratoire,,,Misc,N/A,,,,,,,,,,,
 348f1302-6ca8-45af-b23e-db9dc0980914,,,Breathing Assessment,Évaluation de la respiration,Breathing Assessment,Évaluation de la respiration,,,Question,Coded,,Normal;Dyspneic;Respiratory distress;Other,,,,,,,,,
-9bbae48a-924a-40ae-9090-353b2a613422,,,Other Breathing Assessment Details,Other Breathing Assessment Details,Other Breathing Assessment Details,Other Breathing Assessment Details,,,Misc,Text,,,,,,,,,,,
+9bbae48a-924a-40ae-9090-353b2a613422,,,Other Breathing Assessment Details,Autre Évaluation de la respiration details,Other Breathing Assessment Details,Autre Évaluation de la respiration details,,,Misc,Text,,,,,,,,,,,
 a21aa582-bb23-4cd8-8fb7-410d88694908,,,Clinical Observation,Observation Clinique,Clinical Observation,Observation Clinique,,,Misc,Text,,,,,,,,,,,
 76799fc6-ee55-49c2-93de-a070188b35fb,,,Examinations requested,Examens demandés,Examinations requested,Examens demandés,,,Misc,Text,,,,,,,,,,,
 24155ce4-9361-4497-ab71-338a2467886c,,,Evolution,Evolution,Evolution,Evolution,,,Misc,Text,,,,,,,,,,,

@@ -93,7 +93,7 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "eye",
+                  "id": "eyeOpeningResponse",
                   "questionOptions": {
                     "rendering": "number",
                     "step": 1,
@@ -105,9 +105,10 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "verb",
+                  "id": "verbalResponse",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "baba227f-2425-4e2a-beff-1cb81a9c09ff",
                     "disallowDecimals": true
                   },
@@ -116,9 +117,10 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "engine",
+                  "id": "motorResponse",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "32e67d1d-33c8-436c-8184-cb642641740f",
                     "disallowDecimals": true
                   },
@@ -182,7 +184,9 @@
               "id": "soluteFlowRate",
               "questionOptions": {
                     "rendering": "number",
-                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60"
+                    "step": 1,
+                    "concept": "5407a0fc-e73f-4da7-8c22-2abcf04f8f60",
+                    "disallowDecimals": false
               },
               "validators": []
             },
@@ -281,7 +285,9 @@
               "id": "oxygenTherapyFlowRate",
               "questionOptions": {
                     "rendering": "number",
-                    "concept": "5967f13b-dd0b-4ad7-a0cd-f684a7544162"
+                    "step": 1,
+                    "concept": "5967f13b-dd0b-4ad7-a0cd-f684a7544162",
+                    "disallowDecimals": false
               },
               "validators": []
             },
