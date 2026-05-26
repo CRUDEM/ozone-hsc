@@ -25,5 +25,5 @@ faaa3af8-e678-42de-8f37-b50a784b73d5,,,Hospitalisation,Hospitalisation,Hospitali
 e8d5651f-42e6-4558-bad2-416d69d979cf,,,Transfer,Transfert,Transfer,Transfert,,,Misc,N/A,,,,,,,,,,,
 438fa424-92f9-4e4b-bcff-fa0b46e51c8f,,,DSA,DSA,DSA,DSA,,,Misc,N/A,,,,,,,,,,,
 2913bb79-8bf5-41e3-b11f-9e1633a0bce5,,,Death,Décès,Death,Décès,,,Misc,N/A,,,,,,,,,,,
-e112e383-3d49-4b20-bda5-3507d0f01363,,,Release / Orientation Note,Release / Orientation Note,Release / Orientation Note,Release / Orientation Note,,,Misc,Text,,,,,,,,,,,
-3358bc61-09fd-4b0e-9bc9-6a894302a297,,,Release / Orientation,Note Sortie / Orientation,Release / Orientation,Note Sortie / Orientation,,,Question,Coded,,Home;Hospitalisation;Transfer;DSA;Death,,,,,,,,,
+e112e383-3d49-4b20-bda5-3507d0f01363,,,Release / Orientation Note,Note Sortie / Orientation,Release / Orientation Note,Note Sortie / Orientation,,,Misc,Text,,,,,,,,,,,
+3358bc61-09fd-4b0e-9bc9-6a894302a297,,,Release / Orientation,Sortie / Orientation,Release / Orientation,Sortie / Orientation,,,Question,Coded,,Home;Hospitalisation;Transfer;DSA;Death,,,,,,,,,
