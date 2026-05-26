@@ -5,9 +5,10 @@
   "form_name_translation": "Triage",
   "language": "fr",
   "translations": {
-     "Eye Opening Response": "Yeux",
-     "Verbal Response": "Verbe",
-     "Motor Response": "Moteur",
-      "Autre Évaluation de la respiration details": "Autres"
+     "Reponse Yeux": "Yeux",
+     "Reponse Verbe": "Verbe",
+     "Reponse Mouvement": "Moteur",
+     "Autres détails Evaluation respiratoire": "Autres",
+     "Note Sortie / Orientation": "Note"
   }
 }

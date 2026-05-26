@@ -6,10 +6,10 @@
   "language": "fr",
   "translations": {
      "Nurse's Observations": "Observations de l’infirmière",
-     "Eye Opening Response": "Yeux",
-     "Verbal Response": "Verbe",
-     "Motor Response": "Moteur",
-     "Flow Rate For Soluté": "Débit (ml/h)",
-     "Flow Rate For Oxygen Therapy": "Débit (L/min)"
+     "Reponse Yeux": "Yeux",
+     "Reponse Verbe": "Verbe",
+     "Reponse Mouvement": "Moteur",
+     "Debit Soluté": "Débit (ml/h)",
+     "Debit Oxygene": "Débit (L/min)"
   }
 }
