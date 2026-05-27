@@ -1,5 +1,6 @@
 id,category_id/id,factor,rounding,uom_type,name
 init.6705f17a-242e-44dc-87fa-ed6a15f2a1cb,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Ampoule(s)
+init.db22273d-f14d-4a53-85f2-2f58321c6e56,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Ampoule(s)/Vial(s)
 init.0ace7699-f997-42fd-8e2e-1415d5a07c3b,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Application(s)
 init.c2ba3844-98b7-4d3c-b98f-4adfc46658ee,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Gelule(s)
 init.144dd787-a13f-437d-b6c7-9a7d4cf3bc56,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Dose(s)
@@ -18,6 +19,7 @@ init.e0f3730a-8fdb-436f-9ed7-1a724801ecc5,uom.product_uom_categ_unit,1,0.01,Bigg
 init.de57d5f9-4eba-4a92-9b6f-f8edff118ad1,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Tube(s)
 init.1957f9ad-2d7c-4bc3-ac8e-527849c7bd98,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Inhalateur(s)
 init.d8e77a4d-0224-413e-adac-0ecf66eb50ce,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Conteneur(s)
+init.c2c51ec2-bd97-42fd-99c4-4f186670e384,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Pain
 init.50d348c0-9290-4339-ad55-9a752ad65b1e,uom.product_uom_categ_unit,0.1,0.01,Bigger than the reference Unit of Measure,Paquet de 10
 init.beabdc93-f6ad-4f7b-8d90-49766f95277d,uom.product_uom_categ_unit,0.07142857143,0.01,Bigger than the reference Unit of Measure,Paquet de 14
 init.2f83d39c-ac95-4b05-915f-5715a8992477,uom.product_uom_categ_unit,0.06666666667,0.01,Bigger than the reference Unit of Measure,Paquet de 15
@@ -69,12 +71,11 @@ init.1049cf2c-3aa5-417a-a848-ddbccb8da893,uom.product_uom_categ_unit,1,0.01,Smal
 init.7e0f853e-8d3c-4bd2-95f9-2a10bda56059,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Vial de 1ml
 init.1d7d01e6-32fd-4037-941b-736060c2a825,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,1 dose de 0.1ml
 init.cd2ed16e-8d4b-4bef-a419-11c9574ea560,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 10ml
+init.03ccb8c1-f683-4e6c-8e9b-5c07101cfe34,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 1ml
 init.63539063-4c65-49af-8154-c102bab9b890,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 2ml
 init.a1b6d6af-a056-4a6d-ac23-78aca2ae892b,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 3ml
 init.8fc3062b-3368-4fdf-bd7c-13ef0aaaed8f,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 4ml
 init.997f5876-160d-483d-877a-133329242217,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 5ml
-init.03ccb8c1-f683-4e6c-8e9b-5c07101cfe34,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 1ml
-init.0f9146e4-b0d6-44a6-9444-480ed532d9f7,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 2ml
 init.c1ab30fa-f02b-432f-9f0e-62ff7fa09ac7,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Seringue de 0.4ml
 init.23441b9b-947c-49a8-babf-75e55a82f6db,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Tube de 20g
 init.c8eb9e8f-f51d-4a8f-9e3a-cdc13005aace,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Tube de 30g
