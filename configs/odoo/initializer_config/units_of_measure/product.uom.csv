@@ -7,7 +7,7 @@ init.2d735487-2f66-412c-a615-2873ddf94dfd,uom.product_uom_categ_unit,20000,0.01,
 init.8574ffb1-222d-4a11-97c9-7e401c59e2b1,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,IU
 init.e6727dc7-967d-4bf6-9caf-af8a4997a62d,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Paquet(s)
 init.5fa6126f-dc1a-42d4-bfda-b3b9e2cd3b90,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Bouffee(s)
-init.164cd72a-b50d-41f5-b534-7baff3e434b9,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Capsule
+init.c2ba3844-98b7-4d3c-b98f-4adfc46658ee,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Capsule(s)
 init.6fa802c9-5ad8-4e0b-9b8b-d80e4d91b21d,uom.product_uom_categ_unit,67.628,0.01,Smaller than the reference Unit of Measure,Cuillere(s) a soupe
 init.6fbbb779-94ca-4d83-8e02-8a559627b9fb,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Comprime(s)
 init.e946eb88-c6ce-481a-8f76-a979f684fada,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Ovule(s)
@@ -76,6 +76,7 @@ init.8fc3062b-3368-4fdf-bd7c-13ef0aaaed8f,uom.product_uom_categ_unit,1,0.01,Smal
 init.997f5876-160d-483d-877a-133329242217,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 5ml
 init.03ccb8c1-f683-4e6c-8e9b-5c07101cfe34,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 1ml
 init.0f9146e4-b0d6-44a6-9444-480ed532d9f7,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Amp de 2ml
+init.c9ac5779-7ac1-48af-99c6-d9f3356fc18d,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Ampoule/Vial
 init.c1ab30fa-f02b-432f-9f0e-62ff7fa09ac7,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Seringue de 0.4ml
 init.23441b9b-947c-49a8-babf-75e55a82f6db,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Tube de 20g
 init.c8eb9e8f-f51d-4a8f-9e3a-cdc13005aace,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Tube de 30g
@@ -105,3 +106,4 @@ init.162396AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigg
 init.162395AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Sachet
 init.1514AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Paquets
 init.21a24b68-083e-4227-93d4-9faa02b5da7b,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Granules
+init.ffe07e7c-0452-4e59-b326-9d2853b56417,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Unit(s)
