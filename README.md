@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <b>Ozone HSC</b> is a child distribution of <a href="https://www.ozone-his.com/case-studies/case-study-ht-1">Ozone Haiti</a> configured to address the needs of the Hôpital de Sacré-Coeur in Milot, Haiti.
+    <b>Ozone HSC</b> is a child distribution of <a href="https://github.com/ozone-his/ozone">Ozone</a> configured to address the needs of the Hôpital de Sacré-Coeur in Milot, Haiti.
     <br/>
 </p>
 

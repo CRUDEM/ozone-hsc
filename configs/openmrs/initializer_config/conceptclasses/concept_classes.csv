@@ -1,0 +1,47 @@
+Uuid,Void/Retire,Name,Description
+8d4907b2-c2cc-11de-8d13-0010c6dffd0f,,Test,"Acq. during patient encounter (vitals, labs, etc.)"
+8d490bf4-c2cc-11de-8d13-0010c6dffd0f,,Procedure,Describes a clinical procedure
+8d490dfc-c2cc-11de-8d13-0010c6dffd0f,,Drug,Drug orders
+8d4918b0-c2cc-11de-8d13-0010c6dffd0f,,Diagnosis,Conclusion drawn through findings
+8d491a9a-c2cc-11de-8d13-0010c6dffd0f,,Finding,Practitioner observation/finding
+8d491c7a-c2cc-11de-8d13-0010c6dffd0f,,Anatomy,Anatomic sites / descriptors
+8d491e50-c2cc-11de-8d13-0010c6dffd0f,,Question,"Question (eg, patient history, SF36 items)"
+8d492026-c2cc-11de-8d13-0010c6dffd0f,,LabSet,Panels
+8d4923b4-c2cc-11de-8d13-0010c6dffd0f,,MedSet,"Term to describe medication sets"
+8d492594-c2cc-11de-8d13-0010c6dffd0f,,ConvSet,"Term to describe convenience sets"
+8d492774-c2cc-11de-8d13-0010c6dffd0f,,Misc,Other orders
+8d492954-c2cc-11de-8d13-0010c6dffd0f,,Symptom,Patient-reported observation
+8d492b2a-c2cc-11de-8d13-0010c6dffd0f,,Symptom/Finding,"Observation that can be reported from patient or found on exam"
+8d492d0a-c2cc-11de-8d13-0010c6dffd0f,,Specimen,Body or fluid specimen
+8d492ee0-c2cc-11de-8d13-0010c6dffd0f,,Misc Order,"Orderable items which aren't tests or drugs"
+8e071bfe-520c-44c0-a89b-538e9129b42a,,Frequency,"A class for order frequencies"
+8d495562-7f06-11ef-abd3-0242ac180006,,Bacteriology Attributes,Bacteriology Attributes Concept Class
+8d5404e0-7f06-11ef-abd3-0242ac180006,,Bacteriology Results,Bacteriology Results Concept Class
+90cd4cfd-7f06-11ef-abd3-0242ac180006,,Concept Attribute,Concept Attribute class
+90d05243-7f06-11ef-abd3-0242ac180006,,Abnormal,Abnormal class
+90d1b0f2-7f06-11ef-abd3-0242ac180006,,Duration,Duration class
+90d4db21-7f06-11ef-abd3-0242ac180006,,Concept Details,Concept Details class
+90ee6250-7f06-11ef-abd3-0242ac180006,,Image,Image class
+90efd0ef-7f06-11ef-abd3-0242ac180006,,Computed,Computed
+91195a03-7f06-11ef-abd3-0242ac180006,,URL,URL
+916f9a08-7f06-11ef-abd3-0242ac180006,,Sample,Lab Samples Concept Class
+91715d19-7f06-11ef-abd3-0242ac180006,,Department,Lab Departments Concept Class
+91af11c9-7f06-11ef-abd3-0242ac180006,,LabTest,Lab Test
+91b07f77-7f06-11ef-abd3-0242ac180006,,Radiology,Radiology
+91beec96-7f06-11ef-abd3-0242ac180006,,Computed/Editable,Computed/Editable
+91caccb6-7f06-11ef-abd3-0242ac180006,,Case Intake,Case Intake class
+92551d8b-7f06-11ef-abd3-0242ac180006,,Unknown,Unknown class
+929fbbea-7f06-11ef-abd3-0242ac180006,,Video,Video class
+0f0a69fc-5c8e-4bf8-b9ad-ed87559bb55c,,Product,Product
+fb6e9000-d7fa-4aa6-8c39-4935d7a36e45,,Obstetrics and Gynecology,"Obstetrics and Gynecology orders"
+0502d529-4e7d-4292-8c9f-68ccf7b93edb,,Ophtalmology,Ophtalmology Orders
+c58e05ec-a7c7-4cb9-9050-e2f8d7d2c506,,Surgery,Surgery orders
+1fe6e639-d434-4e2a-bcb3-b09733e20ab1,,Urology,Urology orders
+0d6f87dd-3773-42f2-affd-b143ecea00dc,,Wound Dressing,Wound Dressing orders
+b5c7ee53-5933-47ca-8f86-855a6e5fa0ed,,Wound,Wound orders
+1fd966b6-cd3e-47d5-873a-0f34da1f8224,,Orthopedics and Traumatology,"Orthopedics and Traumatology Orders"
+bfd02088-04c6-4abe-a5be-b5ee437c8ba9,,ENT,ENT orders
+bfaba740-4c32-43c9-b64c-3e2c0c08cdf0,,Material,Material orders
+74812273-fe63-404a-8e0d-4e38955532af,,Maxillofacial,Maxillofacial orders
+51586b92-5e13-4a38-8345-2a02d465591d,,Odontology,Odontology Orders
+44525914-723b-4fbd-9e88-3ce050b95e04,,Imaging,Imaging orders

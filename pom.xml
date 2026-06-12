@@ -19,13 +19,15 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
 
-        <ozone.artifactId>ozone-haiti</ozone.artifactId>
-        <ozone.groupId>com.ozonehis</ozone.groupId>
-        <ozone.version>1.1.0</ozone.version>
-
+        <ozone.version>1.0.0-alpha.13</ozone.version>
         <ozoneProVersion>1.0.0-alpha.14</ozoneProVersion>
-
         <analyticsQueriesVersion>1.4.0-SNAPSHOT</analyticsQueriesVersion>
+
+        <openmrsERPVersion>2.1.0</openmrsERPVersion>
+        <orderExpansionVersion>1.0.0</orderExpansionVersion>
+        <emrapi.version>2.1.0</emrapi.version>
+        <event.version>2.10.0</event.version>
+        <bedmanagement.version>6.0.0</bedmanagement.version>
 
         <eipOdooOpenMRSVersion>2.1.1</eipOdooOpenMRSVersion>
         <eipOdooOpenMRSArtifactId>eip-odoo-openmrs</eipOdooOpenMRSArtifactId>
@@ -33,8 +35,12 @@
         <supersetConfigsArtifactId>ozone-hsc-superset-configs</supersetConfigsArtifactId>
         <analyticQueriesArtifactId>analytics-queries</analyticQueriesArtifactId>
 
-        <!-- Override incorrect version of Odoo add-on -->
+        <!-- Odoo Addons -->
+        <odooWarehouseVersion>1.0.0</odooWarehouseVersion>
         <priceRecalculationVersion>14.0.1.0.0</priceRecalculationVersion>
+        <bulkCancelOrdersVersion>1.0.0</bulkCancelOrdersVersion>
+        <odooSaleDeliveryStatusVersion>14.0.1.0.0</odooSaleDeliveryStatusVersion>
+        <odooSalePaymentStatusVersion>14.0.1.0.0</odooSalePaymentStatusVersion>
 
         <!-- Classifier for the dependency report artifact -->
         <dependencyReportClassifier>dependencies</dependencyReportClassifier>
@@ -47,20 +53,87 @@
     <dependencies>
         <dependency>
             <groupId>com.ozonehis</groupId>
+            <artifactId>ozone</artifactId>
+            <type>zip</type>
+            <version>${ozone.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ozonehis</groupId>
+            <artifactId>ozone-scripts</artifactId>
+            <type>zip</type>
+            <version>${ozone.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ozonehis</groupId>
             <artifactId>ozone-pro</artifactId>
             <type>zip</type>
             <version>${ozoneProVersion}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>${supersetConfigsArtifactId}</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>erp-omod</artifactId>
+            <version>${openmrsERPVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>orderexpansion-omod</artifactId>
+            <version>${orderExpansionVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>emrapi-omod</artifactId>
+            <version>${emrapi.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openmrs</groupId>
+            <artifactId>event-omod</artifactId>
+            <version>${event.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>bedmanagement-omod</artifactId>
+            <version>${bedmanagement.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Odoo Addon -->
+        <dependency>
+            <groupId>net.mekomsolutions.odoo</groupId>
+            <artifactId>odoo_warehouse</artifactId>
+            <version>${odooWarehouseVersion}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>net.mekomsolutions.odoo</groupId>
+            <artifactId>sotto_sale_delivery_status</artifactId>
+            <version>${odooSaleDeliveryStatusVersion}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>net.mekomsolutions.odoo</groupId>
+            <artifactId>sotto_sale_payment_status</artifactId>
+            <version>${odooSalePaymentStatusVersion}</version>
             <type>zip</type>
         </dependency>
         <dependency>
             <groupId>net.mekomsolutions.odoo</groupId>
             <artifactId>sale_order_price_recalculation</artifactId>
             <version>${priceRecalculationVersion}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>net.mekomsolutions.odoo</groupId>
+            <artifactId>bulk_cancel_orders</artifactId>
+            <version>${bulkCancelOrdersVersion}</version>
+            <type>zip</type>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>${supersetConfigsArtifactId}</artifactId>
+            <version>${project.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
@@ -121,8 +194,35 @@
                                         <exclude>**/**/**/**/metadata.yaml</exclude>
                                         <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
                                         <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
-                                        <exclude>distro/configs/odoo/initializer_config/**</exclude>
                                         <exclude>distro/configs/analytics/**</exclude>
+                                        <exclude>distro/configs/**/address*/*demo.*</exclude>
+                                        <exclude>distro/configs/**/concepts/*demo.csv</exclude>
+                                        <exclude>distro/configs/**/concepts/visittypes-core_data.csv</exclude>
+                                        <exclude>distro/configs/**/program*</exclude>
+                                        <exclude>distro/configs/**/ampathforms/*core_demo.json</exclude>
+                                        <exclude>distro/configs/**/ampathforms/stuctured_soap_note.json</exclude>
+                                        <exclude>distro/configs/**/ampath_poc_adult_return_visit_form_v1.6_core-demo.json</exclude>
+                                        <exclude>distro/configs/**/ampathformstranslations/</exclude>
+                                        <exclude>distro/configs/**/appointment*/</exclude>
+                                        <exclude>distro/configs/**/attributetypes/</exclude>
+                                        <exclude>distro/configs/**/globalproperties/*demo.xml</exclude>
+                                        <exclude>distro/configs/**/drugs/drugs-core_demo.csv</exclude>
+                                        <exclude>distro/configs/**/locations/locations-core_demo.csv</exclude>
+                                        <exclude>distro/configs/**/patientidentifiertypes/</exclude>
+                                        <exclude>distro/configs/**/personattributetypes/</exclude>
+                                        <exclude>distro/configs/**/visittypes*</exclude>
+                                        <exclude>distro/configs/**/ozone_logo_color.svg</exclude>
+                                        <exclude>distro/configs/**/ozone_logo_white.svg</exclude>
+                                        <exclude>distro/configs/**/encountertypes_core-demo.csv</exclude>
+                                        <exclude>distro/configs/**/misc-core_data.csv/</exclude>
+                                        <exclude>distro/configs/**/ocl/openmrs_BasicLabTests*</exclude>
+                                        <exclude>distro/configs/**/ocl/openmrs_CIELImmunizationContent*</exclude>
+                                        <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
+                                        <exclude>distro/configs/**/queues/*</exclude>
+                                        <exclude>distro/configs/**/relationshiptypes-core_demo.csv</exclude>
+                                        <exclude>distro/configs/openmrs/initializer_config/ocl/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
+                                        <!-- Exlude Ozone's Odoo Initializer configs -->
+                                        <exclude>distro/configs/odoo/initializer_config/**</exclude>
                                         <!-- Temporary: exclude non-functioning Odoo add-on -->
                                         <exclude>distro/binaries/odoo/addons/sale_order_price_recalculation/</exclude>
                                     </excludes>
