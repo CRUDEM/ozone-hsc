@@ -14,6 +14,7 @@ init.49d8e327-f84d-41c9-be6a-7ab16d928894,Aiguille Spinale 22G,uom.product_uom_u
 init.69e5c3f5-6b79-459b-9b9b-cd6e0d480b97,Aiguille Spinale 23G,uom.product_uom_unit,TRUE,TRUE,product.categ_products_materials_orders,product,Ordered quantities
 init.a639edf4-c187-49ea-b777-10e23fca73cf,Aiguille Spinale 25G,uom.product_uom_unit,TRUE,TRUE,product.categ_products_materials_orders,product,Ordered quantities
 init.b3e11605-3977-4308-a59c-0bd28d4b2626,Aleze,uom.product_uom_unit,TRUE,TRUE,product.categ_products_materials_orders,product,Ordered quantities
+init.c2ade8a2-5b9f-4434-90f4-3a32cab73d1c,Alcohol 70 degrees (70%) Liguid (GAL),init.191e8434-6087-4b8c-b30c-0fa01cd53ccb,TRUE,TRUE,product.categ_products_materials_orders,product,Ordered quantities,,,
 init.1d13efbc-3fa4-4360-a6fe-1482dc311b52,Ambu Bag Adulte,uom.product_uom_unit,TRUE,TRUE,product.categ_products_materials_orders,product,Ordered quantities
 init.7a1db63b-091d-4c3d-9bd7-d910cf6a26ce,Ambu Bag Neo,uom.product_uom_unit,TRUE,TRUE,product.categ_products_materials_orders,product,Ordered quantities
 init.4f2ce720-9a48-401a-a8fa-e424413788ba,Ambu Bag Ped,uom.product_uom_unit,TRUE,TRUE,product.categ_products_materials_orders,product,Ordered quantities
