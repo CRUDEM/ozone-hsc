@@ -233,6 +233,7 @@
                                         <exclude>distro/configs/**/metadatatermmappings/01_referenceapplication-demo/*</exclude>
                                         <exclude>distro/configs/**/ocl/01_referenceapplication-demo/openmrs_Billing_202410302350_autoexpand*</exclude>
                                         <exclude>distro/configs/**/ocl/**/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
+                                        <exclude>distro/configs/**/queues/**</exclude>
 
                                         <exclude>distro/binaries/openmrs/modules/queues*</exclude>
                                         <!-- Exlude Ozone's Odoo Initializer configs -->
