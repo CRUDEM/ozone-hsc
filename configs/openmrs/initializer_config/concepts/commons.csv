@@ -149,4 +149,3 @@ f83eeb93-703a-4dd5-bd95-51a6580b4065,,,Mode of Arrival,Moyen de transport,Mode o
 150544e4-bf99-4e87-b382-7f93345164df,,,Mode of Arrival Set,Groupe moyen de transport,Mode of Arrival Set,Groupe moyen de transport,,,ConvSet,N/A,,,Moyen de transport;Autres observations,,,,,,,,
 94cc4a0a-281b-4c04-ae3a-cbaf60189aad,,,Skin and Lymphatic,Peau et lymphatique,Skin and Lymphatic,Peau et lymphatique,,,Misc,Coded,,,,,,,,,,,
 135488AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:135488,Lymphadenopathy,Lymphadénopathie,Lymphadenopathy,Lymphadénopathie,,,Diagnosis,N/A,,,,,,,,,,,
-162169AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:162169,Text of encounter note,Texte de la note de consultation,Text of encounter note,Texte de la note de consultation,Free text note field intended to capture unstructured description of the patient encounter,Champ de note en texte libre destiné à saisir une description non structurée de la consultation du patient,Question,Text,,,,,,,,,,,

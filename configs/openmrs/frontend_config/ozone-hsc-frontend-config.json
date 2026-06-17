@@ -507,5 +507,25 @@
       "pageSize": 50,
       "obs": ["bbb02557-0277-4979-a1fa-b0020f136066"]
     }
+  },
+  "@openmrs/esm-ward-app": {
+    "Display conditions": {
+      "privileges": [
+        "Get Admission Locations",
+        "Get Beds"
+      ]
+    },
+    "extensionSlots": {
+      "action-menu-ward-patient-items-slot": {
+        "add": [
+          "order-basket-action-menu"
+        ]
+      }
+    }
+  },
+  "@openmrs/esm-home-app": {
+    "defaultDashboardPerRole": {
+      "System Developer": "patient-lists"
+    }
   }
 }

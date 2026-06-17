@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.ozonehis</groupId>
         <artifactId>maven-parent</artifactId>
-        <version>1.0.0-alpha.13</version>
+        <version>1.0.0-alpha.15</version>
     </parent>
 
     <groupId>com.ozonehis</groupId>
@@ -19,8 +19,8 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
 
-        <ozone.version>1.0.0-alpha.13</ozone.version>
-        <ozoneProVersion>1.0.0-alpha.14</ozoneProVersion>
+        <ozone.version>1.0.0-SNAPSHOT</ozone.version>
+        <ozoneProVersion>1.0.0-SNAPSHOT</ozoneProVersion>
         <analyticsQueriesVersion>1.4.0-SNAPSHOT</analyticsQueriesVersion>
 
         <openmrsERPVersion>2.1.0</openmrsERPVersion>
@@ -168,6 +168,7 @@
                                     <excludes>
                                         <exclude>.gitkeep</exclude>
                                         <exclude>superset/</exclude>
+                                        <exclude>openmrs/initializer_config/</exclude>
                                     </excludes>
                                 </resource>
                             </resources>
@@ -192,22 +193,22 @@
                                         <exclude>non-existing_file</exclude>
                                         <exclude>**/**/**/**/*.gitkeep</exclude>
                                         <exclude>**/**/**/**/metadata.yaml</exclude>
-                                        <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
+                                        <exclude>distro/configs/**/ampathforms*/**/Consultation.json</exclude>
                                         <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
                                         <exclude>distro/configs/analytics/**</exclude>
-                                        <exclude>distro/configs/**/address*/*demo.*</exclude>
-                                        <exclude>distro/configs/**/concepts/*demo.csv</exclude>
-                                        <exclude>distro/configs/**/concepts/visittypes-core_data.csv</exclude>
+                                        <exclude>distro/configs/**/address*/**/*demo.*</exclude>
+                                        <exclude>distro/configs/**/concepts/**/*demo.csv</exclude>
+                                        <exclude>distro/configs/**/concepts/**/visittypes-core_data.csv</exclude>
                                         <exclude>distro/configs/**/program*</exclude>
-                                        <exclude>distro/configs/**/ampathforms/*core_demo.json</exclude>
-                                        <exclude>distro/configs/**/ampathforms/stuctured_soap_note.json</exclude>
+                                        <exclude>distro/configs/**/ampathforms/**/*core_demo.json</exclude>
+                                        <exclude>distro/configs/**/ampathforms/**/stuctured_soap_note.json</exclude>
                                         <exclude>distro/configs/**/ampath_poc_adult_return_visit_form_v1.6_core-demo.json</exclude>
                                         <exclude>distro/configs/**/ampathformstranslations/</exclude>
                                         <exclude>distro/configs/**/appointment*/</exclude>
                                         <exclude>distro/configs/**/attributetypes/</exclude>
-                                        <exclude>distro/configs/**/globalproperties/*demo.xml</exclude>
-                                        <exclude>distro/configs/**/drugs/drugs-core_demo.csv</exclude>
-                                        <exclude>distro/configs/**/locations/locations-core_demo.csv</exclude>
+                                        <exclude>distro/configs/**/globalproperties/**/*demo.xml</exclude>
+                                        <exclude>distro/configs/**/drugs/**/drugs-core_demo.csv</exclude>
+                                        <exclude>distro/configs/**/locations/**/locations-core_demo.csv</exclude>
                                         <exclude>distro/configs/**/patientidentifiertypes/</exclude>
                                         <exclude>distro/configs/**/personattributetypes/</exclude>
                                         <exclude>distro/configs/**/visittypes*</exclude>
@@ -215,17 +216,53 @@
                                         <exclude>distro/configs/**/ozone_logo_white.svg</exclude>
                                         <exclude>distro/configs/**/encountertypes_core-demo.csv</exclude>
                                         <exclude>distro/configs/**/misc-core_data.csv/</exclude>
-                                        <exclude>distro/configs/**/ocl/openmrs_BasicLabTests*</exclude>
-                                        <exclude>distro/configs/**/ocl/openmrs_CIELImmunizationContent*</exclude>
-                                        <exclude>distro/configs/**/ocl/openmrs_DeathCause*</exclude>
+                                        <exclude>distro/configs/**/ocl/**/openmrs_BasicLabTests*</exclude>
+                                        <exclude>distro/configs/**/ocl/**/openmrs_CIELImmunizationContent*</exclude>
+                                        <exclude>distro/configs/**/ocl/**/openmrs_DeathCause*</exclude>
                                         <exclude>distro/configs/**/queues/*</exclude>
                                         <exclude>distro/configs/**/relationshiptypes-core_demo.csv</exclude>
-                                        <exclude>distro/configs/openmrs/initializer_config/ocl/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
+                                        <exclude>distro/configs/openmrs/initializer_config/ocl/**/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
+
+                                        <exclude>distro/configs/**/addresshierarchy/01_referenceapplication-demo/*</exclude>
+                                        <exclude>distro/configs/**/ampathforms/01_referenceapplication-demo/*</exclude>
+                                        <exclude>distro/configs/**/conceptreferencerange/01_referenceapplication-demo/*</exclude>
+                                        <exclude>distro/configs/**/dispositions/01_referenceapplication-demo/*</exclude>
+                                        <exclude>distro/configs/**/globalproperties/01_referenceapplication-demo/*</exclude>
+                                        <exclude>distro/configs/**/globalproperties/02_ozone-distro/disable-demo-patients.xml</exclude>
+                                        <exclude>distro/configs/**/globalproperties/02_ozone-distro/fhir2-paging-props.xml</exclude>
+                                        <exclude>distro/configs/**/metadatatermmappings/01_referenceapplication-demo/*</exclude>
+                                        <exclude>distro/configs/**/ocl/01_referenceapplication-demo/openmrs_Billing_202410302350_autoexpand*</exclude>
+                                        <exclude>distro/configs/**/ocl/**/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
+
+                                        <exclude>distro/binaries/openmrs/modules/queues*</exclude>
                                         <!-- Exlude Ozone's Odoo Initializer configs -->
                                         <exclude>distro/configs/odoo/initializer_config/**</exclude>
                                         <!-- Temporary: exclude non-functioning Odoo add-on -->
                                         <exclude>distro/binaries/odoo/addons/sale_order_price_recalculation/</exclude>
                                     </excludes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy over the content-packages.txt file -->
+                        <id>Copy content-packages.txt</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/scripts/openmrs/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/scripts</directory>
+                                    <includes>
+                                        <include>content-packages.txt</include>
+                                    </includes>
+                                    <filtering>false</filtering>
                                 </resource>
                             </resources>
                         </configuration>
