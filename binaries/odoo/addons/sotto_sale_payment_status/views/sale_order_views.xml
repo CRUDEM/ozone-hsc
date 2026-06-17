@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sotto_payment_status_quotatoin_inherit_tree" model="ir.ui.view">
+        <field name="name">sotto.payment.status.quotation.tree.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree"/>
+        <field name="arch" type="xml">
+            <field name='invoice_status' position="before">
+                <field name="payment_status" widget="badge" optional="show" groups="sotto_sale_payment_status.group_show_payment_status"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="sotto_payment_status_order_inherit_tree" model="ir.ui.view">
+        <field name="name">sotto.payment.status.order.tree.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="arch" type="xml">
+            <field name='invoice_status' position="before">
+                <field name="payment_status" widget="badge" optional="show" groups="sotto_sale_payment_status.group_show_payment_status"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="sotto_payment_status_order_inherit_form" model="ir.ui.view">
+        <field name="name">sotto.payment.status.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <field name='payment_term_id' position="after">
+                <field name="payment_status" widget="badge" groups="sotto_sale_payment_status.group_show_payment_status"/>
+            </field>
+        </field>
+    </record>
+
+    <!-- Search view Inherit -->
+    <record id="sotto_sale_payment_status_search" model="ir.ui.view">
+        <field name="name">sotoo_sale_payment_status.search</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_sales_order_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[1]" position="inside">
+                <filter string="Payment Status" name="sale_payment_status"
+                        context="{'group_by':'payment_status'}"/>
+
+            </xpath>
+        </field>
+    </record>
+</odoo>
