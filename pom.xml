@@ -41,6 +41,7 @@
         <bulkCancelOrdersVersion>1.0.0</bulkCancelOrdersVersion>
         <odooSaleDeliveryStatusVersion>14.0.1.0.0</odooSaleDeliveryStatusVersion>
         <odooSalePaymentStatusVersion>14.0.1.0.0</odooSalePaymentStatusVersion>
+        <odoo_initializerVersion>2.2.0</odoo_initializerVersion>
 
         <!-- Classifier for the dependency report artifact -->
         <dependencyReportClassifier>dependencies</dependencyReportClassifier>
@@ -129,6 +130,13 @@
             <version>${bulkCancelOrdersVersion}</version>
             <type>zip</type>
         </dependency>
+        <dependency>
+            <groupId>net.mekomsolutions.odoo</groupId>
+            <artifactId>odoo_initializer</artifactId>
+            <version>${odoo_initializerVersion}</version>
+            <type>zip</type>
+        </dependency>
+
 
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -195,6 +203,7 @@
                                         <exclude>**/**/**/**/metadata.yaml</exclude>
                                         <exclude>distro/configs/**/ampathforms*/**/Consultation.json</exclude>
                                         <exclude>distro/binaries/odoo/addons/ozone_settings/**</exclude>
+                                        <exclude>distro/binaries/odoo/addons/odoo_initializer/**</exclude>
                                         <exclude>distro/configs/analytics/**</exclude>
                                         <exclude>distro/configs/**/address*/**/*demo.*</exclude>
                                         <exclude>distro/configs/**/concepts/**/*demo.csv</exclude>
