@@ -1,4 +1,4 @@
-Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:900
 0b724cbd-d80c-48f4-925b-598221f90eae,,,DD (Supine Position),DD (Décubitus Dorsal),DD (Supine Position),DD (Décubitus Dorsal),,,Misc,N/A,,,,,,,,,,,
 68247ee1-b91f-4bb5-bb2c-738d76904131,,,DLG (Left Back),DLG (Latéral Gauche),DLG (Left Back),DLG (Latéral Gauche),,,Misc,N/A,,,,,,,,,,,
 9edffbb9-58c9-426f-ba34-c9016cf7e9ff,,,DLD (Right Full-Back),DLD (Latéral Droit),DLD (Right Full-Back),DLD (Latéral Droit),,,Misc,N/A,,,,,,,,,,,
@@ -37,3 +37,5 @@ a16a306c-41f2-4250-bf1a-49fda3b1e318,,,NAV,VNI,NAV,VNI,,,Misc,N/A,,,,,,,,,,,
 32316550-5100-4d12-8dd3-a98fd6b89ed0,,,Drain,Drain,Drain,Drain,,,Misc,Text,,,,,,,,,,,
 c3ca24f7-fa0c-4f41-9ae9-689ca050cacc,,,Ingesta/excreta assessment,Bilan ingesta/excreta,Ingesta/excreta assessment,Bilan ingesta/excreta,,,Misc,Text,,,,,,,,,,,
 5267d54f-f688-4949-86a9-21550f833e44,,,Complaint,Plainte,Complaint,Plainte,,,Misc,Text,,,,,,,,,,,
+d2249b20-ce04-41df-9be9-5f146397db28,,,Reactive,Reactif,Reactive,Reactif,,,Misc,N/A,,,,,,,,,,,
+f419bfc9-f63b-492e-800c-22392b38719b,,,Non Reactive,Non Reactif,Non Reactive,Non Reactif,,,Misc,N/A,,,,,,,,,,,
