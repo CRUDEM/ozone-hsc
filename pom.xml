@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.ozonehis</groupId>
         <artifactId>maven-parent</artifactId>
-        <version>1.0.0-alpha.15</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.ozonehis</groupId>
@@ -225,7 +225,7 @@
                                         <exclude>distro/configs/**/ozone_logo_white.svg</exclude>
                                         <exclude>distro/configs/**/encountertypes_core-demo.csv</exclude>
                                         <exclude>distro/configs/**/misc-core_data.csv/</exclude>
-                                        <exclude>distro/configs/**/ocl/**/openmrs_BasicLabTests*</exclude>
+                                        <exclude>distro/configs/**/ocl/01_referenceapplication-demo/**</exclude>
                                         <exclude>distro/configs/**/ocl/**/openmrs_CIELImmunizationContent*</exclude>
                                         <exclude>distro/configs/**/ocl/**/openmrs_DeathCause*</exclude>
                                         <exclude>distro/configs/**/queues/*</exclude>
