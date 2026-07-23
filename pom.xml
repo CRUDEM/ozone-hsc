@@ -24,10 +24,7 @@
         <analyticsQueriesVersion>1.4.0-SNAPSHOT</analyticsQueriesVersion>
 
         <openmrsERPVersion>2.1.0</openmrsERPVersion>
-        <orderExpansionVersion>1.0.0</orderExpansionVersion>
-        <emrapi.version>2.1.0</emrapi.version>
-        <event.version>2.10.0</event.version>
-        <bedmanagement.version>6.0.0</bedmanagement.version>
+        <orderExpansionVersion>1.0.1-SNAPSHOT</orderExpansionVersion>
 
         <eipOdooOpenMRSVersion>2.1.1</eipOdooOpenMRSVersion>
         <eipOdooOpenMRSArtifactId>eip-odoo-openmrs</eipOdooOpenMRSArtifactId>
@@ -79,24 +76,6 @@
             <groupId>org.openmrs.module</groupId>
             <artifactId>orderexpansion-omod</artifactId>
             <version>${orderExpansionVersion}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openmrs.module</groupId>
-            <artifactId>emrapi-omod</artifactId>
-            <version>${emrapi.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.openmrs</groupId>
-            <artifactId>event-omod</artifactId>
-            <version>${event.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.openmrs.module</groupId>
-            <artifactId>bedmanagement-omod</artifactId>
-            <version>${bedmanagement.version}</version>
-            <scope>provided</scope>
         </dependency>
 
         <!-- Odoo Addon -->
