@@ -1,0 +1,13 @@
+<config>
+    <globalProperties>
+        <globalProperty>
+            <property>locale.allowed.list</property>
+            <value>fr, en</value>
+        </globalProperty>
+        <globalProperty>
+            <property>default_locale</property>
+            <value>fr</value>
+            <description>Specifies the default locale.</description>
+        </globalProperty>
+    </globalProperties>
+</config>
