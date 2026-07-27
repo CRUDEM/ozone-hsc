@@ -1,0 +1,9 @@
+Uuid,Void/Retire,Name,Description,Weight,Preferred,A is to b,B is to a
+3ac37b90-6276-4f69-ab70-33128040fa76,,Parent,Parent,,,Parent,Child
+7a475706-0f57-4ed2-ae4a-04a9989fd5df,,Sibling (Frère ou soeur),Sibling (Frère ou soeur),,,Sibling (Frère ou soeur),Sibling (Frère ou soeur)
+2a76a46f-ca46-4629-bed1-8dc7aaf716a4,,Friend (Amis),Friend (Amis),,,Friend (Amis),Friend (Amis)
+63923579-8593-4852-9be2-c339f18a4aca,,Partner/Spouse (Partenaire ou conjoint),Partner/Spouse (Partenaire ou conjoint),,,Partner/Spouse (Partenaire ou conjoint),Partner/Spouse (Partenaire ou conjoint)
+8d919b58-c2cc-11de-8d13-0010c6dffd0f,TRUE,,,,,,
+8d91a210-c2cc-11de-8d13-0010c6dffd0f,TRUE,,,,,,
+8d91a3dc-c2cc-11de-8d13-0010c6dffd0f,TRUE,,,,,,
+8d91a01c-c2cc-11de-8d13-0010c6dffd0f,TRUE,,,,,,

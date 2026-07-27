@@ -1,2 +1,2 @@
-Uuid,Void/Retire,Name,display:en,display:fr,Description,Format,Foreign uuid,Searchable,Edit privilege,_order:100
+Uuid,Void/Retire,Name,display:en,display:fr,Description,Format,Foreign uuid,Searchable,Edit privilege,_order:1100
 ,TRUE,email,Email,Email,Email,java.lang.String,d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e,TRUE,,

@@ -1,0 +1,20 @@
+<config>
+    <globalProperties>
+        <globalProperty>
+            <property>concept.true</property>
+            <value>1</value>
+        </globalProperty>
+        <globalProperty>
+            <property>concept.false</property>
+            <value>2</value>
+        </globalProperty>
+        <globalProperty>
+            <property>visits.assignmentHandler</property>
+            <value>org.openmrs.api.handler.ExistingVisitAssignmentHandler</value>
+        </globalProperty>
+        <globalProperty>
+            <property>concept.causeOfDeath</property>
+            <value>30e1c728-f008-4dd1-ab34-2c34a00fd3a5</value>
+        </globalProperty>
+    </globalProperties>
+</config>
