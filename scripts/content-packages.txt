@@ -1,4 +1,0 @@
-referenceapplication
-referenceapplication-demo
-ozone-distro
-ozone-hsc
