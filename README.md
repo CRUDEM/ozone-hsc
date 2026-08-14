@@ -28,6 +28,25 @@
 ## Release Notes
 
 <details>
+  <summary><b>Version 2.4.1</b></summary>
+   <ul>
+    <li>Depends on:
+     <ul>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#release-notes">Ozone Haiti 1.1.0</a></li>
+     </ul>
+    </li>
+   </ul>
+
+   <b>Specific notes</b>
+
+   <ul>
+    <li>Added Quantitative C-Reactive Protein lab test.</li>
+    <li>Fixed modified unit of measure for Odoo products.</li>
+    </ul>
+</details>
+
+<details>
   <summary><b>Version 2.4.0</b></summary>
    <ul>
     <li>Depends on:
