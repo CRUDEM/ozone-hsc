@@ -1,0 +1,9 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Answers,Members,_version:1,_order:500
+77eafb3f-58d3-4397-a6dc-d2c06e9062f3,,CIEL:168619,Admit to hospital,Hospitaliser,Admit to hospital,Hospitaliser,,,Misc,N/A,,,,
+b9cd9e47-da43-4a46-8f3c-e30ec9209cc7,,org.openmrs.module.emrapi:Admission Location;CIEL:169403,Admitted to location (text/code),Service/unité où admettre (texte/code),Admitted to location (text/code),Service/unité où admettre (texte/code),,,Question,Text,,,,
+731318a6-9fa9-4f68-97a9-5bd4cbc707f7,,org.openmrs.module.emrapi:Internal Transfer Location;CIEL:169404,Internal transfer location (text/code),Service/unité où transférer (texte/code),Internal transfer location (text/code),Service/unité où transférer (texte/code),,,Question,Text,,,,
+dc98ea48-66e9-4b2a-8533-3833f8200d06,,CIEL:167731,Internal facility transfer/referral,Transférer,Internal facility transfer/referral,Transférer,,,Misc,N/A,,,,
+2537896a-7d27-4c71-8e93-4c265ffa5954,,CIEL:169401,Discharge from hospital,Terminer l'hospitalisation,Discharge from hospital,Terminer l'hospitalisation,,,Misc,N/A,,,,
+ce085d74-323c-4c9a-9fdf-051de81dd020,,org.openmrs.module.emrapi:Disposition;CIEL:169402,Inpatient patient disposition,Orientation du patient,Inpatient patient disposition,Orientation du patient,,,Question,Coded,Admit to hospital; Internal facility transfer/referral; Discharge from hospital,,,
+9ceedfb7-60e4-42ce-a11e-f2dbabc82112,,org.openmrs.module.emrapi:Disposition Concept Set;CIEL:169405,Inpatient disposition construct,Ensemble d'orientation du patient,Inpatient disposition construct,Ensemble d'orientation du patient,,,ConvSet,N/A,,Inpatient patient disposition; Internal transfer location (text/code); Admitted to location (text/code),,
+6a9a02ce-fb6f-11ef-bd96-97d17e6b879f,,CIEL:5622,Other non-coded,Autre non-codé,Other non-coded,Autre non-codé,,,Misc,N/A,,,,

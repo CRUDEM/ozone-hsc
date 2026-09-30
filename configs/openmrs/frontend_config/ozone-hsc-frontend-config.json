@@ -48,18 +48,21 @@
       },
       {
         "id": "firstPhoneNumber",
+        "label": "First Phone Number",
         "type": "person attribute",
         "uuid": "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
         "placeholder": "placeholder"
       },
       {
         "id": "secondPhoneNumber",
+        "label": "Second Phone Number",
         "type": "person attribute",
         "uuid": "1102f74e-ea2f-461e-b67f-db58bd136e5c",
         "placeholder": "placeholder"
       },
       {
         "id": "socialStatus",
+        "label": "Social Status",
         "type": "person attribute",
         "uuid": "157d3d3c-fdc7-443d-82be-71b7b3d92940",
         "placeholder": "placeholder",
@@ -67,6 +70,7 @@
       },
       {
         "id": "occupationField",
+        "label": "Profession",
         "type": "person attribute",
         "uuid": "a797b0dc-7ab5-487b-9f01-ef5bb9b7469a",
         "placeholder": "placeholder",
@@ -74,6 +78,7 @@
       },
       {
         "id": "insuranceCompany",
+        "label": "Insurance",
         "type": "person attribute",
         "uuid": "4b27cc11-8cfc-423f-b470-0065ee587313",
         "placeholder": "placeholder",
@@ -81,24 +86,28 @@
       },
       {
         "id": "contactPersonName",
+        "label": "Contact Person's Name",
         "type": "person attribute",
         "uuid": "d7a52bd1-77dd-4f71-a5d0-92848a746014",
         "placeholder": "placeholder"
       },
       {
         "id": "contactPersonPhoneNumber",
+        "label": "Contact Person's Phone Number",
         "type": "person attribute",
         "uuid": "62844ea0-8be6-4a12-9471-cbb1f060d78b",
         "placeholder": "placeholder"
       },
       {
         "id": "contactPersonAddress",
+        "label": "Contact Person Address",
         "type": "person attribute",
         "uuid": "0c6d3b0c-7b54-4848-9638-6afc046c59ec",
         "placeholder": "placeholder"
       },
       {
         "id": "contactPersonRelationship",
+        "label": "Contact Person Relationship",
         "type": "person attribute",
         "uuid": "b47a9c55-4d28-4549-a223-b16d54b8fbbf",
         "placeholder": "placeholder",
@@ -106,18 +115,21 @@
       },
       {
         "id": "mothersName",
+        "label": "Mother's Last Name",
         "type": "person attribute",
         "uuid": "91dbc359-39ef-49f4-abbb-43497b6709f2",
         "placeholder": "placeholder"
       },
       {
         "id": "mothersFirstName",
+        "label": "Mother's First Name",
         "type": "person attribute",
         "uuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f",
         "placeholder": "placeholder"
       },
       {
         "id": "religionField",
+        "label": "Religion",
         "type": "person attribute",
         "uuid": "6a7da305-b5f2-4484-a0ed-ad59f4de8110",
         "placeholder": "placeholder",
@@ -125,6 +137,7 @@
       },
       {
         "id": "policyNumber",
+        "label": "Policy Number",
         "type": "person attribute",
         "uuid": "ecdfe4f8-e66d-43a3-af8e-560b98b6be2a",
         "placeholder": "placeholder"
@@ -506,6 +519,26 @@
     "activeVisits": {
       "pageSize": 50,
       "obs": ["bbb02557-0277-4979-a1fa-b0020f136066"]
+    }
+  },
+  "@openmrs/esm-ward-app": {
+    "Display conditions": {
+      "privileges": [
+        "Get Admission Locations",
+        "Get Beds"
+      ]
+    },
+    "extensionSlots": {
+      "action-menu-ward-patient-items-slot": {
+        "add": [
+          "order-basket-action-menu"
+        ]
+      }
+    }
+  },
+  "@openmrs/esm-home-app": {
+    "defaultDashboardPerRole": {
+      "System Developer": "patient-lists"
     }
   }
 }
