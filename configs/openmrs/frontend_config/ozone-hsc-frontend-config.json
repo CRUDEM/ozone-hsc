@@ -533,6 +533,12 @@
         "add": [
           "order-basket-action-menu"
         ]
+      },
+      "ward-patient-workspace-content-slot": {
+        "add": [
+          "active-medications-widget",
+          "conditions-overview-widget"
+        ]
       }
     }
   },
