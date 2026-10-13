@@ -27,3 +27,7 @@ e8d5651f-42e6-4558-bad2-416d69d979cf,,,Transfer,Transfert,Transfer,Transfert,,,M
 2913bb79-8bf5-41e3-b11f-9e1633a0bce5,,,Death,Décès,Death,Décès,,,Misc,N/A,,,,,,,,,,,
 e112e383-3d49-4b20-bda5-3507d0f01363,,,Release / Orientation Note,Note Sortie / Orientation,Release / Orientation Note,Note Sortie / Orientation,,,Misc,Text,,,,,,,,,,,
 3358bc61-09fd-4b0e-9bc9-6a894302a297,,,Release / Orientation,Sortie / Orientation,Release / Orientation,Sortie / Orientation,,,Question,Coded,,Home;Hospitalisation;Transfer;DSA;Death,,,,,,,,,
+2acd52d4-a0c5-45da-be77-0fe34bb3dd84,,,Emergency,Emergency,Emergency,Urgent,,,Misc,N/A,,,,,,,,,,,
+617fbfdc-31b5-414c-8964-8cb148cab662,,,Queue,Queue,Queue,File d'attente,,,Misc,N/A,,,,,,,,,,,
+63cf8bf7-7316-4b35-9bb6-2ef11384ca07,,,Priority,Priority,Priority,Prioritaire,,,Misc,N/A,,,,,,,,,,,
+bbb02557-0277-4979-a1fa-b0020f136066,,CIEL:159637,Triage Level,Degré d'urgence,Triage level,Degré d'urgence,,,Question,Coded,,Emergency;Priority;Queue,,,,,,,,,
