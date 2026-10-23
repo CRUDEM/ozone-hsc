@@ -294,6 +294,9 @@
       }
     ],
     "extensionSlots": {
+      "extra-visit-attribute-slot": {
+        "remove": ["billing-checkin-form"]
+      },
       "patient-chart-summary-dashboard-slot": {
         "add": [
           "attachments-overview-widget",
