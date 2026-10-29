@@ -454,6 +454,12 @@
     "daysDurationUnit": {
       "uuid": "327cdb97-571c-2d13-306b-4024fce268cb",
       "display": "Day(s)"
+    },
+    "durationUnitsDaysMap": {
+      "327cdb97-571c-2d13-306b-4024fce268cb": 1,
+      "88e55059-0ba4-11eb-a3aa-0242ac140008": 7,
+      "88e5cc3c-0ba4-11eb-a3aa-0242ac140008": 30,
+      "1734AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": 365
     }
   },
   "@mekomsolutions/esm-patient-medical-supply-orders-app": {
