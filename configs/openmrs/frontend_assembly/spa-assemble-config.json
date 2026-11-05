@@ -1,6 +1,6 @@
 {
   "frontendModules": {
-    "@mekomsolutions/esm-patient-medical-supply-orders-app": "0.1.1-pre.20"
+    "@mekomsolutions/esm-patient-medical-supply-orders-app": "0.1.1-pre.30"
   },
   "__comment": "Ozone HSC Overrides",
   "frontendModuleExcludes": [
