@@ -1,8 +1,6 @@
 {
   "frontendModules": {
-    "@mekomsolutions/esm-patient-medical-supply-orders-app": "0.1.1-pre.30",
-    "@openmrs/esm-bed-management-app": "12.1.1",
-    "@openmrs/esm-patient-chart-app": "13.0.1"
+    "@mekomsolutions/esm-patient-medical-supply-orders-app": "0.1.1-pre.30"
   },
   "__comment": "Ozone HSC Overrides",
   "frontendModuleExcludes": [
