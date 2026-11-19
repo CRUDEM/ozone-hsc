@@ -2,4 +2,3 @@ docker-compose-common.yml
 docker-compose-openmrs.yml
 docker-compose-odoo.yml
 docker-compose-override.yml
-docker-compose-cve-2026-114938-override.yml
