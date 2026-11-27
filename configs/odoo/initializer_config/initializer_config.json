@@ -36,6 +36,11 @@
             "field_rules": {}
         },
         {
+            "model_name": "product.product",
+            "folder": "medication_catalog",
+            "field_rules": {}
+        },
+        {
             "model_name": "ir.model",
             "folder": "models",
             "field_rules": {}
