@@ -218,7 +218,6 @@
                                         <exclude>distro/configs/**/globalproperties/01_referenceapplication-demo/*</exclude>
                                         <exclude>distro/configs/**/globalproperties/02_ozone-distro/disable-demo-patients.xml</exclude>
                                         <exclude>distro/configs/**/globalproperties/02_ozone-distro/fhir2-paging-props.xml</exclude>
-                                        <exclude>distro/configs/**/ocl/01_referenceapplication-demo/openmrs_Billing_202410302350_autoexpand*</exclude>
                                         <exclude>distro/configs/**/ocl/**/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
                                         <exclude>distro/configs/**/queues/**</exclude>
 
@@ -227,6 +226,13 @@
                                         <exclude>distro/configs/odoo/initializer_config/**</exclude>
                                         <!-- Temporary: exclude non-functioning Odoo add-on -->
                                         <exclude>distro/binaries/odoo/addons/sale_order_price_recalculation/</exclude>
+
+                                        <exclude>binaries/openmrs/modules/billing-*.omod"</exclude>
+                                        <exclude>configs/openmrs/initializer_config/billableservices/**</exclude>
+                                        <exclude>configs/openmrs/initializer_config/cashpoints/**</exclude>
+                                        <exclude>configs/openmrs/initializer_config/paymentmodes/**</exclude>
+                                        <exclude>configs/openmrs/initializer_config/globalproperties/**/billing-*.xml</exclude>
+                                        <exclude>configs/openmrs/initializer_config/ocl/**/openmrs_Billing_*.zip</exclude>
                                     </excludes>
                                 </resource>
                             </resources>
@@ -498,8 +504,30 @@
                 </executions>
             </plugin>
             <plugin>
-            <artifactId>maven-antrun-plugin</artifactId>
+                <artifactId>maven-antrun-plugin</artifactId>
                 <executions>
+                    <execution>
+                        <id>Remove OpenMRS billing files from the distro</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <!-- Remove inherited billing files, including any staged by an earlier build. -->
+                                <delete includeEmptyDirs="true">
+                                    <fileset dir="${project.build.directory}/${project.artifactId}-${project.version}/distro">
+                                        <include name="binaries/openmrs/modules/billing-*.omod" />
+                                        <include name="configs/openmrs/initializer_config/billableservices/**" />
+                                        <include name="configs/openmrs/initializer_config/cashpoints/**" />
+                                        <include name="configs/openmrs/initializer_config/paymentmodes/**" />
+                                        <include name="configs/openmrs/initializer_config/globalproperties/**/billing-*.xml" />
+                                        <include name="configs/openmrs/initializer_config/ocl/**/openmrs_Billing_*.zip" />
+                                    </fileset>
+                                </delete>
+                            </target>
+                        </configuration>
+                    </execution>
                     <execution>
                         <id>Delete EIP Odoo OpenMRS folder</id>
                         <phase>prepare-package</phase>
