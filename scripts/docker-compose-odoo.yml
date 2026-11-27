@@ -94,6 +94,7 @@ services:
       - EIP_FHIR_SERVER_URL=http://openmrs:8080/openmrs/ws/fhir2/R4
       - EIP_FHIR_USERNAME=${OPENMRS_USER}
       - EIP_FHIR_PASSWORD=${OPENMRS_PASSWORD}
+      - EIP_ODOO_FHIR_SERVER_URL=${EIP_ODOO_FHIR_SERVER_URL:-http://fhir-odoo:8080}
     image: mekomsolutions/eip-client:2.2.0
     networks:
       ozone:
