@@ -25,22 +25,6 @@
     <a href="https://github.com/ozone-his/">Code</a>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.ozone-his.com/">Docs</a>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://talk.openmrs.org/c/software/ozone-his/70">Forum</a>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openmrs.slack.com/archives/C02PYQD5D0A">Chat Room</a>
 </h3>
 
-## Medication catalog
-
-Odoo supplies the medication names and strengths that sync to OpenMRS. Define products, standard concept codes,
-and strengths in `configs/odoo/initializer_config/product_variant/drugs.csv`. Use SNOMED CT, CIEL, or LOINC
-for `x_concept_source` and leave both concept columns empty when the product label does not establish a match.
-OpenMRS connects verified standard codes to the existing HSC clinical concepts. The initializer applies the
-existing HSC UUIDs from `configs/odoo/initializer_config/medication_catalog/drugs.csv` to clinical products
-that still need a standard code.
-
-Medication codes were checked against the [SNOMED CT terminology browser](https://snowstorm.terminologi.helsedirektoratet.no/)
-and the [OpenMRS CIEL Basic Drugs export](https://github.com/openmrs/openmrs-content-referenceapplication-demo/blob/main/configuration/backend_configuration/ocl/openmrs_BasicDrugs_v6_autoexpand-6.2025-09-22_081023.zip).
-
-The sync reads products in the Drugs category. The Non-prescribable Drugs subcategory keeps coded inventory-only
-products and stock items associated with retired OpenMRS medications available in Odoo. New OpenMRS drug records
-created by the sync have an empty dosage form.
-
 ## Release Notes
 
 <details>

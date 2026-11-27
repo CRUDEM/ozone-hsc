@@ -26,7 +26,7 @@
         <openmrsERPVersion>2.1.0</openmrsERPVersion>
         <orderExpansionVersion>1.0.1-SNAPSHOT</orderExpansionVersion>
 
-        <eipOdooOpenMRSVersion>2.2.0</eipOdooOpenMRSVersion>
+        <eipOdooOpenMRSVersion>2.1.1</eipOdooOpenMRSVersion>
         <eipOdooOpenMRSArtifactId>eip-odoo-openmrs</eipOdooOpenMRSArtifactId>
 
         <supersetConfigsArtifactId>ozone-hsc-superset-configs</supersetConfigsArtifactId>
